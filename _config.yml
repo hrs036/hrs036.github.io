@@ -109,6 +109,4 @@ theme: matery
 deploy:
   type: git
   repository: https://github.com/hrs036/hrs036.github.io.git
-  branch: main
-  
-
+  branch: gh-pages
