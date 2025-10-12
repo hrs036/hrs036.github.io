@@ -39,16 +39,16 @@ menu:
   #      url: /galleries
   #      icon: fas fa-image
 
-# Website start time.
-# 站点运行开始时间.
+  # Website start time.
+  # 站点运行开始时间.
 time:
   enable: false
   year: 2025 # 年份
   month: 10 # 月份
   date: 7 # 日期
-  hour: 00 # 小时
-  minute: 00 # 分钟
-  second: 00 # 秒
+  hour: 0 # 小时
+  minute: 0 # 分钟
+  second: 0 # 秒
 
 # Index cover carousel configuration.
 # 首页封面轮播图的相关配置.
@@ -62,7 +62,7 @@ cover:
   # useConfig 使用方式: 将主题 hexo-theme-matery/source/_data/covers.json 移动到 my-blog/source/_data/下修改配置即可
   video:
     enable: false
-    src: 
+    src:
       - https://txmov2.a.yximgs.com/upic/2021/04/09/22/BMjAyMTA0MDkyMjMwMDhfMTg1ODk2MDg4N180NzUyOTMyMjA4Nl8xXzM=_b_B8e080d7ede19e6674d48a9f12545007b.mp4?pkey=AAVAfNhi5_f-HGkIPXrY5w6nyf4JibwOY-WwdHgSJ2aSoi-2WQLpiYDunLbRZQuESz875eMdsepRlVFtXg9nuQY58uRc-7AsF0kEMNR6QYBj56g9JFFMSGdsoKK2-SV27u8&tag=1-1617978682-xpcwebprofile-0-lcvipceuti-9e40072f87531f1a&clientCacheKey=3xbbtbrfxqpccp4_b.mp4
       - https://txmov2.a.yximgs.com/upic/2021/04/09/21/BMjAyMTA0MDkyMTQyNDRfMTg1ODk2MDg4N180NzUyNjAyMzA0N18xXzM=_b_B83b004b85aba8eca3ded270637616575.mp4
       - https://txmov2.a.yximgs.com/upic/2021/04/09/21/BMjAyMTA0MDkyMTU4MDNfMTg1ODk2MDg4N180NzUyNzE0MzkyNV8xXzM=_b_Bf94cee6bd181efeaca64049bd2e4e276.mp4
@@ -80,41 +80,43 @@ dream:
 # 是否在首页显示音乐.
 music:
   enable: true
-  title: #非吸底模式有效
+  title:
+    #非吸底模式有效
     enable: true
     show: 听听音乐
-  autoHide: true    # hide automaticaly
-  server: netease   #require	music platform: netease, tencent, kugou, xiami, baidu
-  type: playlist    #require song, playlist, album, search, artist
-  id:  7769336949    #require	song id / playlist id / album id / search keyword
-  fixed: true       # 开启吸底模式
-  autoplay: false   # 是否自动播放
+  autoHide: true # hide automaticaly
+  server: netease #require	music platform: netease, tencent, kugou, xiami, baidu
+  type: playlist #require song, playlist, album, search, artist
+  id: 7769336949 #require	song id / playlist id / album id / search keyword
+  fixed: true # 开启吸底模式
+  autoplay: false # 是否自动播放
   theme: '#42b983'
-  loop: 'all'       # 音频循环播放, 可选值: 'all', 'one', 'none'
-  order: 'random'   # 音频循环顺序, 可选值: 'list', 'random'
-  preload: 'auto'   # 预加载，可选值: 'none', 'metadata', 'auto'
-  volume: 0.7       # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
-  listFolded: true  # 列表默认折叠
-  hideLrc: false     # 隐藏歌词
+  loop: 'all' # 音频循环播放, 可选值: 'all', 'one', 'none'
+  order: 'random' # 音频循环顺序, 可选值: 'list', 'random'
+  preload: 'auto' # 预加载，可选值: 'none', 'metadata', 'auto'
+  volume: 0.7 # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
+  listFolded: true # 列表默认折叠
+  hideLrc: false # 隐藏歌词
 
 # Whether to display the musics.
 # 单独的音乐页面.
 musics:
   enable: true
-  title:          #非吸底模式有效
+  title:
+    #非吸底模式有效
     enable: true
     show: 听听音乐
-  server: tencent   #require music platform: netease, tencent, kugou, xiami, baidu
-  type: playlist    #require song, playlist, album, search, artist
-  id:   7769336949   #require song id / playlist id / album id / search keyword
-  fixed: false      # 开启吸底模式
-  autoplay: true   # 是否自动播放
+  server: tencent #require music platform: netease, tencent, kugou, xiami, baidu
+  type: playlist #require song, playlist, album, search, artist
+  id: 7769336949 #require song id / playlist id / album id / search keyword
+  fixed: false # 开启吸底模式
+  autoplay: true # 是否自动播放
   theme: '#42b983'
-  loop: 'all'       # 音频循环播放, 可选值: 'all', 'one', 'none'
-  order: 'random'   # 音频循环顺序, 可选值: 'list', 'random'
-  preload: 'auto'   # 预加载，可选值: 'none', 'metadata', 'auto'
-  volume: 0.7       # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
-  listFolded: false  # 列表默认折叠
+  loop: 'all' # 音频循环播放, 可选值: 'all', 'one', 'none'
+  order: 'random' # 音频循环顺序, 可选值: 'list', 'random'
+  preload: 'auto' # 预加载，可选值: 'none', 'metadata', 'auto'
+  volume: 0.7 # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
+  listFolded: false # 列表默认折叠
   listMaxHeight: "525px" #列表最大高度
 
 # Whether to display the videos.
@@ -142,8 +144,8 @@ recommend:
   useConfig: false # 是否使用配置文件, 在 _data/recommends.json 下配置推荐文章, false则会走主题配置的 top 属性
   # useConfig 使用方式: 将主题 hexo-theme-matery/source/_data/recommends.json 移动到 my-blog/source/_data/下修改配置即可
 
-# Configure website favicon and LOGO
-# 配置网站favicon和网站LOGO
+  # Configure website favicon and LOGO
+  # 配置网站favicon和网站LOGO
 favicon: /favicon.png
 logo: /medias/logo.png
 
@@ -160,7 +162,7 @@ indexbtn:
 # icon/button will not show up if you leave the corresponding socialLink empty
 # 首页 banner 中的第二行个人信息配置，留空即不启用
 socialLink:
-  github:  https://github.com/hrs036
+  github: https://github.com/hrs036
   email: 1831476250@qq.com
   facebook: # https://www.facebook.com/xxx
   twitter: # https://twitter.com/xxx
@@ -246,7 +248,6 @@ sakura:
 # 是否激活页面鼠标星星跟随效果, 只在桌面版网页启用特效
 mouseStar:
   enable: true
-
   # 是否激活页面飘雪效果, 只在桌面版网页启用特效
 snowdown:
   enable: true
@@ -256,7 +257,9 @@ snowdown:
 profile:
   avatar: /medias/avatar.jpg
   career: Software Engineer
-  introduction: If you wish to succeed, you should use persistence as your good friend, experience as your reference, prudence as your brother and hope as your sentry.
+  introduction: If you wish to succeed, you should use persistence as your good
+    friend, experience as your reference, prudence as your brother and hope as
+    your sentry.
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
@@ -270,15 +273,15 @@ myProjects:
       url: http://github.com/blinkfox/hexo-theme-matery
       desc: This is a Hexo blog theme with 'Material Design' and responsive design.
     Fenix:
-        icon: fas fa-database
-        iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
-        url: https://github.com/blinkfox/fenix
-        desc: 这是 Spring Data JPA 复杂或动态 SQL 查询的扩展库。
+      icon: fas fa-database
+      iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
+      url: https://github.com/blinkfox/fenix
+      desc: 这是 Spring Data JPA 复杂或动态 SQL 查询的扩展库。
     typora-vue-theme:
-        icon: fas fa-file-alt
-        iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
-        url: https://github.com/blinkfox/typora-vue-theme
-        desc: This is a typora theme inspired by Vue document style.
+      icon: fas fa-file-alt
+      iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
+      url: https://github.com/blinkfox/typora-vue-theme
+      desc: This is a typora theme inspired by Vue document style.
 
 # config my skills informations in about page.
 # If you don't want to display this `My Skills` content, you can deactivate or delete this configuration.
@@ -342,8 +345,8 @@ gitalk:
     clientSecret:
   admin:
 
-# the Gitment config，default disabled
-# Gitment 评论模块的配置，默认为不激活
+    # the Gitment config，default disabled
+    # Gitment 评论模块的配置，默认为不激活
 gitment:
   enable: false
   owner:
@@ -352,22 +355,22 @@ gitment:
     clientId:
     clientSecret:
 
-# disqus config, default disabled
-# Disqus评论模块的配置，默认为不激活
+      # disqus config, default disabled
+      # Disqus评论模块的配置，默认为不激活
 disqus:
   enable: false
   shortname:
 
-# Livere comment configuration, the default is not activated
-# Livere 来必力评论模块的配置，默认为不激活
+    # Livere comment configuration, the default is not activated
+    # Livere 来必力评论模块的配置，默认为不激活
 livere:
   enable: false
   uid:
 
-# 腾讯人机验证
-# 注意：目前只适配和测试了valine，其它评论系统未调试验证！
-# 介绍: https://cloud.tencent.com/document/product/1110/36841
-# 管理验证码: https://console.cloud.tencent.com/captcha/graphical
+    # 腾讯人机验证
+    # 注意：目前只适配和测试了valine，其它评论系统未调试验证！
+    # 介绍: https://cloud.tencent.com/document/product/1110/36841
+    # 管理验证码: https://console.cloud.tencent.com/captcha/graphical
 tcaptcha:
   enable: true
   appid: xxxxxxxxxx # 你的appid
@@ -377,7 +380,7 @@ tcaptcha:
 # Valine 评论模块的配置，默认为不激活，如要使用，就请激活该配置项，并设置 appId 和 appKey.
 valine:
   enable: false
-  appId:  # 必填
+  appId: # 必填
   appKey: # 必填
   serverURLs: # 必填 https://你的api
   notify: false
@@ -387,12 +390,12 @@ valine:
   pageSize: 10
   placeholder: 'just go go' # Comment Box placeholder
   background: /medias/comment_bg.png
-  coolpushkey: 
+  coolpushkey:
 
-# The configuration of the Waline comment module is not activated by default.
-# To use it, activate the configuration item.
-# Waline 评论模块的配置，默认为不激活，如要使用，就请激活该配置项
-# See: https://waline.js.org/
+    # The configuration of the Waline comment module is not activated by default.
+    # To use it, activate the configuration item.
+    # Waline 评论模块的配置，默认为不激活，如要使用，就请激活该配置项
+    # See: https://waline.js.org/
 waline:
   enable: true
   # Waline 服务端部署参考 https://waline.js.org/guide/server/intro.html 客户端和服务端版本需一致
@@ -404,8 +407,8 @@ changyan:
   enable: false
   appId:
   conf:
-# Whether to display fork me on github icon and link, default true, You can change it to your repo address
-# 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
+    # Whether to display fork me on github icon and link, default true, You can change it to your repo address
+    # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
   enable: true
   url: https://github.com/blinkfox/hexo-theme-matery
@@ -421,12 +424,12 @@ twikoo:
   # region: ap-guangzhou # 环境地域，默认为 ap-shanghai
   # path: 'window.location.pathname' # 自定义文章路径
 
-# The password verification feature of read post. To use this feature,
-# activate the configuration item and write the 'password' key and Cipher in the post's Front-matter.
-# Note: In order to ensure that the original password will not be leaked to the web page,
-# the password of the article must be encrypted by 'SHA256' so that it will not be cracked.
-# 阅读文章的密码验证功能，如要使用此功能请激活该配置项，并在对应文章的Front-matter中写上'password'的键和加密后的密文即可.
-# 请注意：为了保证密码原文不会被泄露到网页中，文章的密码必须是通过'SHA256'加密的，这样就不会被破解.
+  # The password verification feature of read post. To use this feature,
+  # activate the configuration item and write the 'password' key and Cipher in the post's Front-matter.
+  # Note: In order to ensure that the original password will not be leaked to the web page,
+  # the password of the article must be encrypted by 'SHA256' so that it will not be cracked.
+  # 阅读文章的密码验证功能，如要使用此功能请激活该配置项，并在对应文章的Front-matter中写上'password'的键和加密后的密文即可.
+  # 请注意：为了保证密码原文不会被泄露到网页中，文章的密码必须是通过'SHA256'加密的，这样就不会被破解.
 verifyPassword:
   enable: false
   promptMessage: 请输入访问本文章的密码
@@ -445,13 +448,13 @@ googleAnalytics:
   enable: false
   id:
 
-# Add baidu analytics configuration
-# 添加 baidu Analytics 配置
+    # Add baidu analytics configuration
+    # 添加 baidu Analytics 配置
 baiduAnalytics:
   enable: false
   id:
 
-# 百度搜索资源平台提交链接
+    # 百度搜索资源平台提交链接
 baiduPush: true
 
 # The used front-end library can be replaced with the corresponding CDN address as needed,
@@ -484,7 +487,7 @@ libs:
   js:
     matery: /js/matery.js
     sc2tc: /js/tw_cn.js
-    jquery: /libs/jquery/jquery-3.6.0.min.js  #3.6.0 20211109
+    jquery: /libs/jquery/jquery-3.6.0.min.js #3.6.0 20211109
     materialize: /libs/materialize/materialize.min.js # 1.2.1 20230106
     masonry: /libs/masonry/masonry.pkgd.min.js # v4.0.0
     aos: /libs/aos/aos.js
@@ -526,30 +529,30 @@ libs:
 # The post featured images that needs to be displayed when there is no image.
 # 无文章特色图片时需要显示的文章特色图片.
 featureImages:
-- /medias/featureimages/0.jpg
-- /medias/featureimages/1.jpg
-- /medias/featureimages/2.jpg
-- /medias/featureimages/3.jpg
-- /medias/featureimages/4.jpg
-- /medias/featureimages/5.jpg
-- /medias/featureimages/6.jpg
-- /medias/featureimages/7.jpg
-- /medias/featureimages/8.jpg
-- /medias/featureimages/9.jpg
-- /medias/featureimages/10.jpg
-- /medias/featureimages/11.jpg
-- /medias/featureimages/12.jpg
-- /medias/featureimages/13.jpg
-- /medias/featureimages/14.jpg
-- /medias/featureimages/15.jpg
-- /medias/featureimages/16.jpg
-- /medias/featureimages/17.jpg
-- /medias/featureimages/18.jpg
-- /medias/featureimages/19.jpg
-- /medias/featureimages/20.jpg
-- /medias/featureimages/21.jpg
-- /medias/featureimages/22.jpg
-- /medias/featureimages/23.jpg
+  - /medias/featureimages/0.jpg
+  - /medias/featureimages/1.jpg
+  - /medias/featureimages/2.jpg
+  - /medias/featureimages/3.jpg
+  - /medias/featureimages/4.jpg
+  - /medias/featureimages/5.jpg
+  - /medias/featureimages/6.jpg
+  - /medias/featureimages/7.jpg
+  - /medias/featureimages/8.jpg
+  - /medias/featureimages/9.jpg
+  - /medias/featureimages/10.jpg
+  - /medias/featureimages/11.jpg
+  - /medias/featureimages/12.jpg
+  - /medias/featureimages/13.jpg
+  - /medias/featureimages/14.jpg
+  - /medias/featureimages/15.jpg
+  - /medias/featureimages/16.jpg
+  - /medias/featureimages/17.jpg
+  - /medias/featureimages/18.jpg
+  - /medias/featureimages/19.jpg
+  - /medias/featureimages/20.jpg
+  - /medias/featureimages/21.jpg
+  - /medias/featureimages/22.jpg
+  - /medias/featureimages/23.jpg
 
 # default configs that the default policy for every articles/posts
 # default 配置文章的默认转载规则
@@ -579,16 +582,15 @@ daovoice:
   enable: false
   app_id:
 
-# Tidio online contact
+    # Tidio online contact
 tidio:
   enable: false
   public_key:
 
-# 腾讯兔小巢，见https://txc.qq.com/
+    # 腾讯兔小巢，见https://txc.qq.com/
 tuxiaochao:
   enable: false
-  productId:
-#背景canvas-nest
+  productId: #背景canvas-nest
 canvas_nest:
   enable: false
   color: 0,0,255 # 线条颜色, 默认: '0,0,0' ；三个数字分别为(R,G,B)，注意用,分割
@@ -603,7 +605,7 @@ ribbon:
   size: 150 # 彩带大小, 默认: 90.
   alpha: 0.6 # 彩带透明度 (0 ~ 1), 默认: 0.6.
   zIndex: -1 # 背景的z-index属性，css属性用于控制所在层的位置, 默认: -1.
-  clickChange: false  # 设置是否每次点击都更换彩带.
+  clickChange: false # 设置是否每次点击都更换彩带.
 
 # 背景动态彩带.
 ribbon_dynamic:
@@ -618,10 +620,11 @@ sharejs:
 # addthis文章分享模块.
 addthis:
   enable: false
-  pubid:  # 前往https://www.addthis.com/获取
+  pubid:
+    # 前往https://www.addthis.com/获取
 
-# 打字效果副标题.
-# 如果有符号 ‘ ，请在 ’ 前面加上 \
+    # 打字效果副标题.
+    # 如果有符号 ‘ ，请在 ’ 前面加上 \
 subtitle:
   enable: true
   loop: true # 是否循环（true/false）
@@ -629,10 +632,10 @@ subtitle:
   startDelay: 300 # 开始延迟（单位：毫秒，建议范围：100-1000）
   typeSpeed: 100 # 打字速度（单位：毫秒/字符，建议范围：50-200）
   backSpeed: 50 # 删除速度（单位：毫秒/字符，建议范围：30-100）
-  sub: # 字幕内容列表（建议最多10条）
+  sub:
+    # 字幕内容列表（建议最多10条）
     - 幸福的秘诀就是降低期望
     - The secret to happiness is low expectations
-
 
 # 手机二级菜单.
 navMenu:
@@ -659,21 +662,23 @@ translate:
 icp:
   enable: false
   url: # 备案链接
-  text: # 备案信息
+  text:
+    # 备案信息
 
-# CDN访问加速 
-# 第一次使用本功能，一定要先配置url，再`hexo cl && hexo g && hexo d`部署到GitHub的仓库，注意！必须是GitHub的仓库！
-# 如果必须要使用国内的coding或者gitee，可以采用双部署，同时将网站部署到两个仓库（其中一个必须是GitHub的仓库）
-# URL配置规则（例子如下）： https://cdn.jsdelivr.net/gh/你的GitHub用户名/你的仓库名
-# 如果想关闭此功能，将 url地址 注释或删除即可！
-#
-# 注：配置了此项，就代表着本地调试的时候，网站依然会去GitHub请求资源（原来的资源），本地调试的时候记得将 此项配置 注释或者删除掉
-# 更多关于访问速度优化，请查看：https://blog.sky03.cn/posts/42790.html
-# 注：jsdelivr可以自动帮你生成.min版的js和css，所以你在上面设置js及css路径中可以直接写.min.xxx
+    # CDN访问加速 
+    # 第一次使用本功能，一定要先配置url，再`hexo cl && hexo g && hexo d`部署到GitHub的仓库，注意！必须是GitHub的仓库！
+    # 如果必须要使用国内的coding或者gitee，可以采用双部署，同时将网站部署到两个仓库（其中一个必须是GitHub的仓库）
+    # URL配置规则（例子如下）： https://cdn.jsdelivr.net/gh/你的GitHub用户名/你的仓库名
+    # 如果想关闭此功能，将 url地址 注释或删除即可！
+    #
+    # 注：配置了此项，就代表着本地调试的时候，网站依然会去GitHub请求资源（原来的资源），本地调试的时候记得将 此项配置 注释或者删除掉
+    # 更多关于访问速度优化，请查看：https://blog.sky03.cn/posts/42790.html
+    # 注：jsdelivr可以自动帮你生成.min版的js和css，所以你在上面设置js及css路径中可以直接写.min.xxx
 jsDelivr:
-  url: # https://cdn.jsdelivr.net/gh/skyls03/skyls03.github.io
-  
-# 网站背景图
+  url:
+    # https://cdn.jsdelivr.net/gh/skyls03/skyls03.github.io
+
+    # 网站背景图
 background:
   enable: false
   url: "https://cdn.jsdelivr.net/gh/Tokisaki-Galaxy/res/site/medias/background.jpg"
@@ -682,56 +687,60 @@ background:
 artitalk:
   enable: false
   appId: # xxxxx
-  appKey: # xxxxxx
+  appKey:
+    # xxxxxx
 
-# 哔哔功能配置
-# 登陆leancloud创建应用。进入应用后，点击创建 Class，将「 Class 名称」命名为 content
-# 点击刚刚创建的content Class，点击添加列并创建名称为content的列，类型为String，注意列注释也要填写（随意填）
-# 记录appid，masterkey，api域名
-# 输入:hexo new page bb
-# hexo就在source文件夹下创建了bb/index.md。
-# 修改index.md的frontmater下的layout为bb：
-# ---
-# title: 黑石说
-# layout: bb
-# ---
-# 里面的文字可以自己随意加，会显示在哔哔的上方。
-# 关注公众号 "黑石哔哔"，发送: //bindCurrentUser:你的APPID,你的MASTERKEY,你的RESTAPI
-# 可用leancloud国际版，国际版api为 https://appid前八位.api.lncldglobal.com
+    # 哔哔功能配置
+    # 登陆leancloud创建应用。进入应用后，点击创建 Class，将「 Class 名称」命名为 content
+    # 点击刚刚创建的content Class，点击添加列并创建名称为content的列，类型为String，注意列注释也要填写（随意填）
+    # 记录appid，masterkey，api域名
+    # 输入:hexo new page bb
+    # hexo就在source文件夹下创建了bb/index.md。
+    # 修改index.md的frontmater下的layout为bb：
+    # ---
+    # title: 黑石说
+    # layout: bb
+    # ---
+    # 里面的文字可以自己随意加，会显示在哔哔的上方。
+    # 关注公众号 "黑石哔哔"，发送: //bindCurrentUser:你的APPID,你的MASTERKEY,你的RESTAPI
+    # 可用leancloud国际版，国际版api为 https://appid前八位.api.lncldglobal.com
 bbtime:
   enable: false
   appId: # 你的appId
   appKey: # 你的appKey
-  serverURLs: # https://你的api
+  serverURLs:
+    # https://你的api
 
 
-# 图表绘制插件
-# 建议更换更换hexo-renderer-markdown-it引擎。参考下面链接
-# https://github.com/hexojs/hexo-renderer-markdown-it
-# https://github.com/hexojs/hexo-renderer-markdown-it/wiki/Advanced-Configuration
-# 使用教程： https://blog.17lai.site/posts/cf0f47fd/#Mermaid
-# 安装配置方法
-# yarn remove hexo-renderer-marked
-# yarn add hexo-renderer-markdown-it hexo-tag-mermaid
-# 注意：hexo-renderer-markdown-it 比默认引擎更快，可选择插件较多，请认真看上面两个链接教程。
-# mermaid语法教程 https://mermaid-js.github.io/mermaid/#/
-# 使用方法：
-# 在post文章中填写mermaid语句，需要使用{% mermaid %} 包裹
-# {% mermaid %}
-# [mermaid 语句正文]
-# {% endmermaid %}
-# 样例如下所示：
-# {% mermaid %}
-# graph TD
-#     A[Christmas] -->|Get money| B(Go shopping)
-#     B --> C{Let me think}
-#     C -->|One| D[Laptop]
-#     C -->|Two| E[iPhone]
-#     C -->|Three| F[Car]
-# {% endmermaid %}
-# mermaid chart。 依赖hexo-tag-mermaid
-mermaid: ## mermaid url https://github.com/knsv/mermaid
-  enable: false  # default false
+    # 图表绘制插件
+    # 建议更换更换hexo-renderer-markdown-it引擎。参考下面链接
+    # https://github.com/hexojs/hexo-renderer-markdown-it
+    # https://github.com/hexojs/hexo-renderer-markdown-it/wiki/Advanced-Configuration
+    # 使用教程： https://blog.17lai.site/posts/cf0f47fd/#Mermaid
+    # 安装配置方法
+    # yarn remove hexo-renderer-marked
+    # yarn add hexo-renderer-markdown-it hexo-tag-mermaid
+    # 注意：hexo-renderer-markdown-it 比默认引擎更快，可选择插件较多，请认真看上面两个链接教程。
+    # mermaid语法教程 https://mermaid-js.github.io/mermaid/#/
+    # 使用方法：
+    # 在post文章中填写mermaid语句，需要使用{% mermaid %} 包裹
+    # {% mermaid %}
+    # [mermaid 语句正文]
+    # {% endmermaid %}
+    # 样例如下所示：
+    # {% mermaid %}
+    # graph TD
+    #     A[Christmas] -->|Get money| B(Go shopping)
+    #     B --> C{Let me think}
+    #     C -->|One| D[Laptop]
+    #     C -->|Two| E[iPhone]
+    #     C -->|Three| F[Car]
+    # {% endmermaid %}
+    # mermaid chart。 依赖hexo-tag-mermaid
+mermaid:
+  ## mermaid url https://github.com/knsv/mermaid
+  enable: false # default false
   version: "latest" # default v7.1.2
-  options:  # find more api options from https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js
+  options:
+    # find more api options from https://github.com/knsv/mermaid/blob/master/src/mermaidAPI.js
     #startOnload: true  // default true
