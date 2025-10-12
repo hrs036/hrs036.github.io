@@ -62,82 +62,81 @@ cover:
   # useConfig 使用方式: 将主题 hexo-theme-matery/source/_data/covers.json 移动到 my-blog/source/_data/下修改配置即可
   video:
     enable: false
-    src:
-      - https://txmov2.a.yximgs.com/upic/2021/04/09/22/BMjAyMTA0MDkyMjMwMDhfMTg1ODk2MDg4N180NzUyOTMyMjA4Nl8xXzM=_b_B8e080d7ede19e6674d48a9f12545007b.mp4?pkey=AAVAfNhi5_f-HGkIPXrY5w6nyf4JibwOY-WwdHgSJ2aSoi-2WQLpiYDunLbRZQuESz875eMdsepRlVFtXg9nuQY58uRc-7AsF0kEMNR6QYBj56g9JFFMSGdsoKK2-SV27u8&tag=1-1617978682-xpcwebprofile-0-lcvipceuti-9e40072f87531f1a&clientCacheKey=3xbbtbrfxqpccp4_b.mp4
-      - https://txmov2.a.yximgs.com/upic/2021/04/09/21/BMjAyMTA0MDkyMTQyNDRfMTg1ODk2MDg4N180NzUyNjAyMzA0N18xXzM=_b_B83b004b85aba8eca3ded270637616575.mp4
-      - https://txmov2.a.yximgs.com/upic/2021/04/09/21/BMjAyMTA0MDkyMTU4MDNfMTg1ODk2MDg4N180NzUyNzE0MzkyNV8xXzM=_b_Bf94cee6bd181efeaca64049bd2e4e276.mp4
-# index page dream text,
+    # src:
+    #   - https://txmov2.a.yximgs.com/upic/2021/04/09/22/BMjAyMTA0MDkyMjMwMDhfMTg1ODk2MDg4N180NzUyOTMyMjA4Nl8xXzM=_b_B8e080d7ede19e6674d48a9f12545007b.mp4?pkey=AAVAfNhi5_f-HGkIPXrY5w6nyf4JibwOY-WwdHgSJ2aSoi-2WQLpiYDunLbRZQuESz875eMdsepRlVFtXg9nuQY58uRc-7AsF0kEMNR6QYBj56g9JFFMSGdsoKK2-SV27u8&tag=1-1617978682-xpcwebprofile-0-lcvipceuti-9e40072f87531f1a&clientCacheKey=3xbbtbrfxqpccp4_b.mp4
+    #   - https://txmov2.a.yximgs.com/upic/2021/04/09/21/BMjAyMTA0MDkyMTQyNDRfMTg1ODk2MDg4N180NzUyNjAyMzA0N18xXzM=_b_B83b004b85aba8eca3ded270637616575.mp4
+    #   - https://txmov2.a.yximgs.com/upic/2021/04/09/21/BMjAyMTA0MDkyMTU4MDNfMTg1ODk2MDg4N180NzUyNzE0MzkyNV8xXzM=_b_Bf94cee6bd181efeaca64049bd2e4e276.mp4
 
-# index page dream text,
-# 配置首页显示"梦想"的语句.
+    # index page dream text,
+    # 配置首页显示"梦想"的语句.
 dream:
   enable: true
   showTitle: true
-  title: 我的梦想
-  text: 不是每个人都应该像我这样去建造一座水晶大教堂，但是每个人都应该拥有自己的梦想，设计自己的梦想，追求自己的梦想，实现自己的梦想。梦想是生命的灵魂，是心灵的灯塔，是引导人走向成功的信仰。有了崇高的梦想，只要矢志不渝地追求，梦想就会成为现实，奋斗就会变成壮举，生命就会创造奇迹。——罗伯·舒乐
+  title: 日常水话
+  text: 生活就像海洋，只有意志坚强的人才能到达彼岸。—— CELST 英语听说考试试音词
 
 # Whether to display the musics.
 # 是否在首页显示音乐.
 music:
-  enable: true
-  title:
-    #非吸底模式有效
-    enable: true
-    show: 听听音乐
-  autoHide: true # hide automaticaly
-  server: netease #require	music platform: netease, tencent, kugou, xiami, baidu
-  type: playlist #require song, playlist, album, search, artist
-  id: 7769336949 #require	song id / playlist id / album id / search keyword
-  fixed: true # 开启吸底模式
-  autoplay: false # 是否自动播放
-  theme: '#42b983'
-  loop: 'all' # 音频循环播放, 可选值: 'all', 'one', 'none'
-  order: 'random' # 音频循环顺序, 可选值: 'list', 'random'
-  preload: 'auto' # 预加载，可选值: 'none', 'metadata', 'auto'
-  volume: 0.7 # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
-  listFolded: true # 列表默认折叠
-  hideLrc: false # 隐藏歌词
+  enable: false
+  # title:
+  #   #非吸底模式有效
+  #   enable: true
+  #   show: 听听音乐
+  # autoHide: true # hide automaticaly
+  # server: netease #require	music platform: netease, tencent, kugou, xiami, baidu
+  # type: playlist #require song, playlist, album, search, artist
+  # id: 7769336949 #require	song id / playlist id / album id / search keyword
+  # fixed: true # 开启吸底模式
+  # autoplay: false # 是否自动播放
+  # theme: '#42b983'
+  # loop: 'all' # 音频循环播放, 可选值: 'all', 'one', 'none'
+  # order: 'random' # 音频循环顺序, 可选值: 'list', 'random'
+  # preload: 'auto' # 预加载，可选值: 'none', 'metadata', 'auto'
+  # volume: 0.7 # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
+  # listFolded: true # 列表默认折叠
+  # hideLrc: false # 隐藏歌词
 
-# Whether to display the musics.
-# 单独的音乐页面.
+  # Whether to display the musics.
+  # 单独的音乐页面.
 musics:
-  enable: true
-  title:
-    #非吸底模式有效
-    enable: true
-    show: 听听音乐
-  server: tencent #require music platform: netease, tencent, kugou, xiami, baidu
-  type: playlist #require song, playlist, album, search, artist
-  id: 7769336949 #require song id / playlist id / album id / search keyword
-  fixed: false # 开启吸底模式
-  autoplay: true # 是否自动播放
-  theme: '#42b983'
-  loop: 'all' # 音频循环播放, 可选值: 'all', 'one', 'none'
-  order: 'random' # 音频循环顺序, 可选值: 'list', 'random'
-  preload: 'auto' # 预加载，可选值: 'none', 'metadata', 'auto'
-  volume: 0.7 # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
-  listFolded: false # 列表默认折叠
-  listMaxHeight: "525px" #列表最大高度
+  enable: false
+  # title:
+  #   #非吸底模式有效
+  #   enable: true
+  #   show: 听听音乐
+  # server: tencent #require music platform: netease, tencent, kugou, xiami, baidu
+  # type: playlist #require song, playlist, album, search, artist
+  # id: 7769336949 #require song id / playlist id / album id / search keyword
+  # fixed: false # 开启吸底模式
+  # autoplay: true # 是否自动播放
+  # theme: '#42b983'
+  # loop: 'all' # 音频循环播放, 可选值: 'all', 'one', 'none'
+  # order: 'random' # 音频循环顺序, 可选值: 'list', 'random'
+  # preload: 'auto' # 预加载，可选值: 'none', 'metadata', 'auto'
+  # volume: 0.7 # 默认音量，请注意播放器会记忆用户设置，用户手动设置音量后默认音量即失效
+  # listFolded: false # 列表默认折叠
+  # listMaxHeight: "525px" #列表最大高度
 
-# Whether to display the videos.
-# 是否在首页显示视频.
+  # Whether to display the videos.
+  # 是否在首页显示视频.
 video:
   enable: false
-  showTitle: true
-  title: 精彩视频
-  url: # url和iframeUrl其中一个必填
-  iframeUrl: #在bilibili或者爱奇艺分享时选择iframe，然后填那个url来这里，sample: //player.bilibili.com/player.html?aid=669520137&bvid=BV1oa4y1L7mw&cid=234543483&page=1
-  pic:
-  thumbnails:
-  height: # 如：400
-  autoplay: false # 是否自动播放
-  theme: '#42b983'
-  loop: false # 是否循环播放
-  preload: 'auto' # 预加载，可选值: 'none', 'metadata', 'auto'
-  volume: 0.7
+  # showTitle: true
+  # title: 精彩视频
+  # url: # url和iframeUrl其中一个必填
+  # iframeUrl: #在bilibili或者爱奇艺分享时选择iframe，然后填那个url来这里，sample: //player.bilibili.com/player.html?aid=669520137&bvid=BV1oa4y1L7mw&cid=234543483&page=1
+  # pic:
+  # thumbnails:
+  # height: # 如：400
+  # autoplay: false # 是否自动播放
+  # theme: '#42b983'
+  # loop: false # 是否循环播放
+  # preload: 'auto' # 预加载，可选值: 'none', 'metadata', 'auto'
+  # volume: 0.7
 
-# Whether to display the title of the recommended posts
-# 是否显示推荐文章的标题
+  # Whether to display the title of the recommended posts
+  # 是否显示推荐文章的标题
 recommend:
   enable: true
   showTitle: true
@@ -156,7 +155,7 @@ indexbtn:
   enable: true
   name: Github
   icon: fab fa-github-alt
-  url: https://github.com/hrs036/hexo-theme-matery
+  url: https://github.com/hrs036/hrs036.github.io
 
 # The configurations of the second line of home banner
 # icon/button will not show up if you leave the corresponding socialLink empty
@@ -169,7 +168,7 @@ socialLink:
   qq: 1831476250
   weibo: # https://weibo.com/xxx
   zhihu: # https://www.zhihu.com/xxx
-  rss: true # true、false
+  rss: false # true、false
 
 # Whether to activate the Post TOC, and Configure which title types are supported by TOC support.
 # You can add `toc: false` to the Front-matter of a post to turn off the TOC.
@@ -190,16 +189,16 @@ code:
 
 # 是否激活文章末尾的打赏功能，默认激活（你替换为的你自己的微信、支付宝二维码图片、或者使用网络图片也可以）.
 reward:
-  enable: true
-  title: 你的赏识是我前进的动力
-  wechat: /medias/reward/wechat.png
-  alipay: /medias/reward/alipay.jpg
-
-# Whether to activate the copyright information of the blog and author when copying the post content.
-# minCharNumber: Approve copyright information by copying at least how many characters.
-# 是否激活复制文章时追加博客和作者的版权信息.
-copyright:
   enable: false
+  # title: 你的赏识是我前进的动力
+  # wechat: /medias/reward/wechat.png
+  # alipay: /medias/reward/alipay.jpg
+
+  # Whether to activate the copyright information of the blog and author when copying the post content.
+  # minCharNumber: Approve copyright information by copying at least how many characters.
+  # 是否激活复制文章时追加博客和作者的版权信息.
+copyright:
+  enable: true
   minCharNumber: 120 # 至少复制多少个字符就追加版权信息.
   description: 本文章著作权归作者所有，任何形式的转载都请注明出处。
 
@@ -219,11 +218,11 @@ mathjax:
 # 文章信息--若要开启文章字数统计，需要安装 hexo-wordcount 插件，安装命令: `npm i --save hexo-wordcount`
 postInfo:
   date: true # 发布日期
-  update: false # 更新日期
-  wordCount: false # 文章字数统计
-  totalCount: false # 站点总文章字数
-  min2read: false # 文章阅读时长
-  readCount: false # 文章阅读次数
+  update: true # 更新日期
+  wordCount: true # 文章字数统计
+  totalCount: true # 站点总文章字数
+  min2read: true # 文章阅读时长
+  readCount: true # 文章阅读次数
 
 # Whether to activate the 'love' effect of clicking on the page.
 # 是否激活点击页面的'爱心'效果，默认激活.
@@ -256,67 +255,65 @@ snowdown:
 # 在”关于”页面中配置个人信息，包括头像、职业和个人介绍.
 profile:
   avatar: /medias/avatar.jpg
-  career: Software Engineer
-  introduction: If you wish to succeed, you should use persistence as your good
-    friend, experience as your reference, prudence as your brother and hope as
-    your sentry.
+  career: 学生
+  introduction: 事业不是靠一时冲动完成的，而是由一系列小事汇集而成。
 
 # config my projects informations in about page.
 # If you don't want to display this `My Projects` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的项目"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myProjects:
-  enable: true
-  data:
-    hexo-theme-matery:
-      icon: fas fa-file-alt
-      iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
-      url: http://github.com/blinkfox/hexo-theme-matery
-      desc: This is a Hexo blog theme with 'Material Design' and responsive design.
-    Fenix:
-      icon: fas fa-database
-      iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
-      url: https://github.com/blinkfox/fenix
-      desc: 这是 Spring Data JPA 复杂或动态 SQL 查询的扩展库。
-    typora-vue-theme:
-      icon: fas fa-file-alt
-      iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
-      url: https://github.com/blinkfox/typora-vue-theme
-      desc: This is a typora theme inspired by Vue document style.
+  enable: false
+  # data:
+  #   hexo-theme-matery:
+  #     icon: fas fa-file-alt
+  #     iconBackground: 'linear-gradient(to bottom right, #66BB6A 0%, #81C784 100%)'
+  #     url: http://github.com/blinkfox/hexo-theme-matery
+  #     desc: This is a Hexo blog theme with 'Material Design' and responsive design.
+  #   Fenix:
+  #     icon: fas fa-database
+  #     iconBackground: 'linear-gradient(to bottom right, #F06292 0%, #EF5350 100%)'
+  #     url: https://github.com/blinkfox/fenix
+  #     desc: 这是 Spring Data JPA 复杂或动态 SQL 查询的扩展库。
+  #   typora-vue-theme:
+  #     icon: fas fa-file-alt
+  #     iconBackground: 'linear-gradient(to bottom right, #29B6F6 0%, #1E88E5 100%)'
+  #     url: https://github.com/blinkfox/typora-vue-theme
+  #     desc: This is a typora theme inspired by Vue document style.
 
 # config my skills informations in about page.
 # If you don't want to display this `My Skills` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的技能"信息，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 mySkills:
-  enable: true
-  data:
-    Java:
-      background: 'linear-gradient(to right, #FF0066 0%, #FF00CC 100%)'
-      percent: 85%
-    JavaScript:
-      background: 'linear-gradient(to right, #9900FF 0%, #CC66FF 100%)'
-      percent: 80%
-    HTML5:
-      background: 'linear-gradient(to right, #2196F3 0%, #42A5F5 100%)'
-      percent: 80%
-    CSS:
-      background: 'linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)'
-      percent: 70%
-    SQL:
-      background: 'linear-gradient(to right, #4CAF50 0%, #81C784 100%)'
-      percent: 90%
-    程序设计:
-      background: 'linear-gradient(to right, #FFEB3B 0%, #FFF176 100%)'
-      percent: 75%
+  enable: false
+  # data:
+  #   Java:
+  #     background: 'linear-gradient(to right, #FF0066 0%, #FF00CC 100%)'
+  #     percent: 85%
+  #   JavaScript:
+  #     background: 'linear-gradient(to right, #9900FF 0%, #CC66FF 100%)'
+  #     percent: 80%
+  #   HTML5:
+  #     background: 'linear-gradient(to right, #2196F3 0%, #42A5F5 100%)'
+  #     percent: 80%
+  #   CSS:
+  #     background: 'linear-gradient(to right, #00BCD4 0%, #80DEEA 100%)'
+  #     percent: 70%
+  #   SQL:
+  #     background: 'linear-gradient(to right, #4CAF50 0%, #81C784 100%)'
+  #     percent: 90%
+  #   程序设计:
+  #     background: 'linear-gradient(to right, #FFEB3B 0%, #FFF176 100%)'
+  #     percent: 75%
 
 # config gallery of my photos in about page.
 # If you don't want to display this `Gallery` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的相册"图片，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myGallery:
-  enable: true
-  data:
-    - /medias/featureimages/0.jpg
-    - /medias/featureimages/1.jpg
-    - /medias/featureimages/2.jpg
+  enable: false
+  # data:
+  #   - /medias/featureimages/0.jpg
+  #   - /medias/featureimages/1.jpg
+  #   - /medias/featureimages/2.jpg
 
 # Whether to display post-calender in the `archive` page
 # 设置在归档页面中是否显示'文章日历'控件
@@ -372,8 +369,8 @@ livere:
     # 介绍: https://cloud.tencent.com/document/product/1110/36841
     # 管理验证码: https://console.cloud.tencent.com/captcha/graphical
 tcaptcha:
-  enable: true
-  appid: xxxxxxxxxx # 你的appid
+  enable: false
+  # appid: xxxxxxxxxx # 你的appid
 
 # The configuration of the Valine comment module is not activated by default.
 # To use it, activate the configuration item and set appId and appKey.
@@ -397,11 +394,11 @@ valine:
     # Waline 评论模块的配置，默认为不激活，如要使用，就请激活该配置项
     # See: https://waline.js.org/
 waline:
-  enable: true
+  enable: false
   # Waline 服务端部署参考 https://waline.js.org/guide/server/intro.html 客户端和服务端版本需一致
   # 下面是一个例子，请替换成自己的服务端
-  serverURL: https://waline.your-domain.com
-  avatar: 'mp' # Gravatar style : ''/mp/identicon/monsterid/wavatar/retro/hide
+  # serverURL: https://waline.your-domain.com
+  # avatar: 'mp' # Gravatar style : ''/mp/identicon/monsterid/wavatar/retro/hide
 
 changyan:
   enable: false
@@ -411,7 +408,7 @@ changyan:
     # 配置是否在 header 中显示 fork me on github 的图标，默认为true，你可以修改为你的仓库地址.
 githubLink:
   enable: true
-  url: https://github.com/blinkfox/hexo-theme-matery
+  url: https://github.com/hrs036/hrs036.github.io
   title: Fork Me
 
 # The configuration of the Twikoo comment module is not activated by default.
@@ -574,7 +571,7 @@ featureImages:
 # noreprint（不允许转载 not allowed to reprint）
 # pay（付费转载 pay for reprinting）
 reprint:
-  enable: true # whether enable reprint section 是否启用“转载规则限定模块”
+  enable: false # whether enable reprint section 是否启用“转载规则限定模块”
   default: cc_by
 
 # DaoVoice online contact
