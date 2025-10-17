@@ -6,7 +6,12 @@
 title: 言叶之庭
 subtitle: '知识是抽象的数理化，思想是具体的诗词歌赋'
 description: ''
-keywords: "技术, 生活, 编程, Web开发, 艺术"
+keywords:
+  - 技术
+  - 生活
+  - 编程
+  - Web开发
+  - 艺术
 author: 胡荣胜
 author_email: 1831476250@qq.com
 author_github: hrs036
@@ -44,12 +49,12 @@ external_link:
   enable: true # Open external links in new tab
   field: site # Apply to the whole site
   exclude: ''
-filename_case: 0
+filename_case: 1
 render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-syntax_highlighter: highlight.js
+syntax_highlighter: prismjs
 highlight:
   line_number: true
   auto_detect: false
@@ -59,7 +64,7 @@ highlight:
 prismjs:
   preprocess: true
   line_number: true
-  tab_replace: ''
+  tab_replace: '    '
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -67,7 +72,7 @@ prismjs:
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
   path: ''
-  per_page: 10
+  per_page: 5
   order_by: -date
 
 # Category & Tag
@@ -86,11 +91,11 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: 'mtime'
+updated_option: 'date'
 
 # Pagination
 ## Set per_page to 0 to disable pagination
-per_page: 10
+per_page: 5
 pagination_dir: page
 
 # Include / Exclude file(s)
@@ -102,7 +107,64 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: matery
+theme: butterfly
+
+## Markdown-it Plugin configuration
+markdown:
+  render:
+    html: true
+    xhtmlOut: false
+    breaks: true
+    linkify: true
+    typographer: true
+    quotes: '「」'
+  plugins:
+    - markdown-it-footnote
+    - markdown-it-sup
+    - markdown-it-sub
+    - markdown-it-abbr
+    - markdown-it-emoji
+    - markdown-it-mathjax3
+    - markdown-it-merge-cells
+
+## Search configuration
+search:
+  path: search.xml
+  field: post
+  content: true
+  format: html
+
+## RSS Plugin Configuration
+feed:
+  enable: true
+  type: atom
+  path: atom.xml
+  limit: 20
+  hub:
+  content:
+  content_limit: 140
+  content_limit_delim: " "
+  order_by: -date
+  icon: icon.png
+  autodiscovery: true
+  template: ''
+
+## SEO & External URL Anti-leak Plugins Configuration
+nofollow:
+  enable: true
+  field: site
+  exclude: []
+
+## Sitemap Plugins Configuration
+sitemap:
+  path:
+    - sitemap.xml
+    - sitemap.txt
+  # template: ./sitemap_template.xml
+  # template_txt: ./sitemap_template.txt
+  rel: false
+  tags: true
+  categories: true
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
