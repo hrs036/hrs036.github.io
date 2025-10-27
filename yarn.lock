@@ -266,13 +266,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"archy@npm:^1.0.0":
-  version: 1.0.0
-  resolution: "archy@npm:1.0.0"
-  checksum: 10c0/200c849dd1c304ea9914827b0555e7e1e90982302d574153e28637db1a663c53de62bad96df42d50e8ce7fc18d05e3437d9aa8c4b383803763755f0956c7d308
-  languageName: node
-  linkType: hard
-
 "argparse@npm:^2.0.1":
   version: 2.0.1
   resolution: "argparse@npm:2.0.1"
@@ -677,7 +670,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"domutils@npm:^3.1.0":
+"domutils@npm:^3.1.0, domutils@npm:^3.2.1":
   version: 3.2.2
   resolution: "domutils@npm:3.2.2"
   dependencies:
@@ -782,6 +775,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"entities@npm:^6.0.0":
+  version: 6.0.1
+  resolution: "entities@npm:6.0.1"
+  checksum: 10c0/ed836ddac5acb34341094eb495185d527bd70e8632b6c0d59548cbfa23defdbae70b96f9a405c82904efa421230b5b3fd2283752447d737beffd3f3e6ee74414
+  languageName: node
+  linkType: hard
+
 "env-paths@npm:^2.2.0":
   version: 2.2.1
   resolution: "env-paths@npm:2.2.1"
@@ -847,6 +847,13 @@ __metadata:
   version: 3.1.3
   resolution: "exponential-backoff@npm:3.1.3"
   checksum: 10c0/77e3ae682b7b1f4972f563c6dbcd2b0d54ac679e62d5d32f3e5085feba20483cf28bd505543f520e287a56d4d55a28d7874299941faf637e779a1aa5994d1267
+  languageName: node
+  linkType: hard
+
+"fast-archy@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "fast-archy@npm:1.0.0"
+  checksum: 10c0/c20425e9ddfbced7f0c2c8bb26a2b39f1a4530ea298a4f7243a7f2902a8e726c2cef165e5458a376ae1eccaf4d3c2e10f6d034c42fe0bfe87c3d7c1e38628b70
   languageName: node
   linkType: hard
 
@@ -1315,7 +1322,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "hexo-site@workspace:."
   dependencies:
-    hexo: "npm:^8.0.0"
+    hexo: "npm:^8.1.0"
     hexo-asset-img: "npm:^1.2.0"
     hexo-deployer-git: "npm:^4.0.0"
     hexo-filter-nofollow: "npm:^2.0.2"
@@ -1382,6 +1389,21 @@ __metadata:
   languageName: node
   linkType: hard
 
+"hexo-util@npm:^4.0.0":
+  version: 4.0.0
+  resolution: "hexo-util@npm:4.0.0"
+  dependencies:
+    camel-case: "npm:^4.1.2"
+    cross-spawn: "npm:^7.0.3"
+    deepmerge: "npm:^4.2.2"
+    highlight.js: "npm:^11.6.0"
+    htmlparser2: "npm:^10.0.0"
+    prismjs: "npm:^1.29.0"
+    strip-indent: "npm:^3.0.0"
+  checksum: 10c0/57fbd4cedf4153e8e6a7e96f5e91e6e45c0ec622cac03fa7a973c8beb1087e1cfe53fb34826bb6818aaec98ab9bbe4c6ecffc69acbd0dc3b8c120c7dfe7455aa
+  languageName: node
+  linkType: hard
+
 "hexo-wordcount@npm:^6.0.1":
   version: 6.0.1
   resolution: "hexo-wordcount@npm:6.0.1"
@@ -1389,20 +1411,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"hexo@npm:^8.0.0":
-  version: 8.0.0
-  resolution: "hexo@npm:8.0.0"
+"hexo@npm:^8.1.0":
+  version: 8.1.0
+  resolution: "hexo@npm:8.1.0"
   dependencies:
     abbrev: "npm:^3.0.0"
-    archy: "npm:^1.0.0"
     bluebird: "npm:^3.7.2"
+    fast-archy: "npm:^1.0.0"
     fast-text-table: "npm:^1.0.1"
     hexo-cli: "npm:^4.3.2"
     hexo-front-matter: "npm:^4.2.1"
     hexo-fs: "npm:^5.0.0"
     hexo-i18n: "npm:^2.0.0"
     hexo-log: "npm:^4.1.0"
-    hexo-util: "npm:^3.3.0"
+    hexo-util: "npm:^4.0.0"
     js-yaml: "npm:^4.1.0"
     js-yaml-js-types: "npm:^1.0.1"
     micromatch: "npm:^4.0.8"
@@ -1418,7 +1440,7 @@ __metadata:
     warehouse: "npm:^6.0.0"
   bin:
     hexo: bin/hexo
-  checksum: 10c0/cfa9f3466292fd51e084740930cafdc7559a25c8e00bf7a64af95cb1fb7c26adedf990f985103bd651b721358912cfde9d3ec34f277ff3799f2d2d7b3482be4b
+  checksum: 10c0/f700463966ce6cb886a3eee96da18cc088af7999267a84c896c554026029d396b48b3821d3af350a270e93a798d52d5f0c61dbe2e5e69ed77e07f4ae4db6f631
   languageName: node
   linkType: hard
 
@@ -1426,6 +1448,18 @@ __metadata:
   version: 11.11.1
   resolution: "highlight.js@npm:11.11.1"
   checksum: 10c0/40f53ac19dac079891fcefd5bd8a21cf2e8931fd47da5bd1dca73b7e4375c1defed0636fc39120c639b9c44119b7d110f7f0c15aa899557a5a1c8910f3c0144c
+  languageName: node
+  linkType: hard
+
+"htmlparser2@npm:^10.0.0":
+  version: 10.0.0
+  resolution: "htmlparser2@npm:10.0.0"
+  dependencies:
+    domelementtype: "npm:^2.3.0"
+    domhandler: "npm:^5.0.3"
+    domutils: "npm:^3.2.1"
+    entities: "npm:^6.0.0"
+  checksum: 10c0/47cfa37e529c86a7ba9a1e0e6f951ad26ef8ca5af898ab6e8916fa02c0264c1453b4a65f28b7b8a7f9d0d29b5a70abead8203bf8b3f07bc69407e85e7d9a68e4
   languageName: node
   linkType: hard
 
