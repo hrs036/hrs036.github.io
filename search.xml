@@ -20,11 +20,6 @@
 ]]></content>
   </entry>
   <entry>
-    <title></title>
-    <url>/2025/10/28/%E8%9D%B4%E8%9D%B6%E4%B8%BB%E9%A2%98/</url>
-    <content><![CDATA[]]></content>
-  </entry>
-  <entry>
     <title>我的第一篇博客文章</title>
     <url>/2024/01/15/%E5%A4%A7%E5%AE%B6%E5%A5%BD/</url>
     <content><![CDATA[<h1>欢迎来到我的博客！</h1>
@@ -58,5 +53,10 @@ yard install</code></pre>
         <tag>博客搭建</tag>
         <tag>教程</tag>
       </tags>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2025/10/28/%E8%9D%B4%E8%9D%B6%E4%B8%BB%E9%A2%98/</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
