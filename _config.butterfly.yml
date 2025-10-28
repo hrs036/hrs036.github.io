@@ -20,13 +20,13 @@ nav:
 menu:
 Index:
   url: /
-  icon: fas fa-home
+  icon: fas fa-yin-yang
 Tags:
   url: /tags
-  icon: fas fa-tags
+  icon: 
 Categories:
   url: /categories
-  icon: fas fa-bookmark
+  icon: fas fa-yin-yang
 Archives:
   url: /archives
   icon: fas fa-archive
@@ -1079,6 +1079,10 @@ CDN:
   # Note: When setting third-party scripts to 'local', you need to install hexo-butterfly-extjs
   internal_provider: local
   third_party_provider: jsdelivr
+  # _config.butterfly.yml
+  css:
+    fontawesome: https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css
+
 
   # Add version number to url, true or false
   version: true
