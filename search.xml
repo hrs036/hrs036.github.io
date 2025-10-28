@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>Hello World</title>
+    <url>/2025/10/28/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start">Quick Start</h2>
+<h3 id="Create-a-new-post">Create a new post</h3>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server">Run server</h3>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files">Generate static files</h3>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/2025/10/28/%E8%9D%B4%E8%9D%B6%E4%B8%BB%E9%A2%98/</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>我的第一篇博客文章</title>
+    <url>/2024/01/15/%E5%A4%A7%E5%AE%B6%E5%A5%BD/</url>
+    <content><![CDATA[<h1>欢迎来到我的博客！</h1>
+<p>这是我的第一篇博客文章，使用 Hexo 和 Matery 主题搭建。在这里，我将分享技术学习心得、生活感悟和各种有趣的内容。</p>
+<h2 id="🚀-Hexo-博客搭建经历">🚀 Hexo 博客搭建经历</h2>
+<h3 id="为什么选择-Hexo？">为什么选择 Hexo？</h3>
+<ul>
+<li><strong>快速简单</strong>：基于 Node.js，生成静态页面速度极快</li>
+<li><strong>主题丰富</strong>：有大量美观的主题可供选择</li>
+<li><strong>Markdown支持</strong>：专注于内容写作，无需关心样式</li>
+</ul>
+<h3 id="搭建过程中遇到的挑战">搭建过程中遇到的挑战</h3>
+<ol>
+<li><strong>环境配置</strong><pre><code class="language-bash"># 安装 Hexo
+yard install -g hexo-cli
+
+# 初始化博客
+hexo init myblog
+cd myblog
+
+# 安装依赖
+yard install</code></pre>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>技术分享</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+        <tag>博客搭建</tag>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+</search>
