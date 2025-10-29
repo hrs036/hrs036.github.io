@@ -59,4 +59,59 @@ yard install</code></pre>
     <url>/2025/10/28/%E8%9D%B4%E8%9D%B6%E4%B8%BB%E9%A2%98/</url>
     <content><![CDATA[]]></content>
   </entry>
+  <entry>
+    <title>python课程学习</title>
+    <url>/2025/10/29/%E8%87%AA%E5%AD%A6python%E8%AF%BE%E7%A8%8B/</url>
+    <content><![CDATA[<h1>开启python学习之旅</h1>
+<p>这是我的一篇博客文章，写作发布我的python学习心得。</p>
+<h2 id="🚀python">🚀python</h2>
+<h3 id="为什么选择-python？">为什么选择 python？</h3>
+<ul>
+<li><strong>简单易学</strong>：语法简单，学习成本低<pre class="line-numbers language-python" data-language="python"><code class="language-python">
+<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Hello, world!"</span><span class="token punctuation">)</span>
+<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
+在初接触code，公认的python和java比较火，简单 于是打算从python英文单词蟒蛇着手。</li>
+<li><strong>功能强大</strong>：丰富的标准库和第三方库<br>
+python确实简单 对比c语言 python的代码简洁清晰</li>
+<li><strong>可移植性强</strong>：跨平台，可在 Windows、Linux、macOS 等平台运行<br>
+python的用途据说很广泛 比如 爬虫 数据分析 机器学习 自动化运维 等等</li>
+<li><strong>可扩展性强</strong>：可以通过 C/C++ 等语言编写扩展模块<br>
+从python着手 学习python 可以学习到很多其他语言的知识 比如 面向对象 函数式编程 等等object funcion 基础的计算机语言是相通的，比如运算符±*/ == != &gt; &lt; &gt;= &lt;=比较运算符 -= += *= /= 等<br>
+or not and。break 和continue， while for循环 比如if elif else。<br>
+for i in range（x），pass<br>
+print format int str函数<br>
+一些基本的计算机知识 比如 内存 指针 等等<br>
+还有一些很有意思的 比如程序员节日是10月24日 2^10==1024哈哈哈</li>
+</ul>
+<h1>学习的过程</h1>
+<h3 id="学习的优势">学习的优势</h3>
+<ol>
+<li>有ai的帮助</li>
+<li>有丰富的学习资源</li>
+<li>有良好的社区氛围</li>
+<li>有良好的学习氛围</li>
+</ol>
+<h3 id="学习的劣势">学习的劣势</h3>
+<ol>
+<li>学习成本高</li>
+<li>学习时间长</li>
+<li>学习难度大</li>
+<li>学习内容多</li>
+</ol>
+<h3 id="感悟与警惕">感悟与警惕</h3>
+<ol>
+<li>不要急于求成</li>
+<li>已经很努力了 但是周围可以互相交流学习的同学很少，一大遗憾。闭门造车哪能学的好。</li>
+<li>互联网的资源很丰富，但是陷阱诱惑也很多啊</li>
+</ol>
+]]></content>
+      <categories>
+        <category>技术分享</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>python</tag>
+        <tag>学习感悟</tag>
+      </tags>
+  </entry>
 </search>
