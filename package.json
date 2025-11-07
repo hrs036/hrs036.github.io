@@ -3,17 +3,20 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "hexo generate",
-    "clean": "hexo clean",
-    "deploy": "hexo deploy",
-    "server": "hexo server",
-    "vercel-build": "hexo generate"
+    "build": "node build.js",
+    "clean": "npx hexo clean",
+    "deploy": "npx hexo deploy",
+    "server": "npx hexo server",
+    "vercel-build": "node build.js",
+    "now-build": "node build.js",
+    "hexo:generate": "npx hexo generate",
+    "vercel-deploy": "npm install && node build.js"
   },
   "hexo": {
     "version": "8.1.1"
   },
   "engines": {
-    "node": ">=18.0.0",
+    "node": "20.x",
     "npm": ">=8.0.0"
   },
   "devDependencies": {
@@ -38,6 +41,5 @@
     "markdown-it-emoji": "^3.0.0",
     "markdown-it-mathjax3": "^5.2.0",
     "markdown-it-merge-cells": "^2.0.0"
-  },
-  "packageManager": "yarn@4.10.3"
+  }
 }
