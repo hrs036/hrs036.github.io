@@ -7,10 +7,11 @@
     "clean": "hexo clean",
     "deploy": "hexo deploy",
     "server": "hexo server",
-    "vercel-build": "hexo generate"
+    "vercel-build": "hexo generate",
+    "now-build": "hexo generate"
   },
   "hexo": {
-    "version": "8.1.1"
+    "version": "8.1.0"
   },
   "engines": {
     "node": ">=18.0.0",
