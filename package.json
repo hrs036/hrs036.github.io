@@ -3,18 +3,19 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "build": "npx hexo generate",
+    "build": "node build.js",
     "clean": "npx hexo clean",
     "deploy": "npx hexo deploy",
     "server": "npx hexo server",
-    "vercel-build": "npx hexo generate",
-    "now-build": "npx hexo generate"
+    "vercel-build": "node build.js",
+    "now-build": "node build.js",
+    "hexo:generate": "npx hexo generate"
   },
   "hexo": {
-    "version": "8.1.0"
+    "version": "8.1.1"
   },
   "engines": {
-    "node": "20.x",
+    "node": ">=20.0.0",
     "npm": ">=8.0.0"
   },
   "devDependencies": {
