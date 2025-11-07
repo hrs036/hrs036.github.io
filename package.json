@@ -12,6 +12,10 @@
   "hexo": {
     "version": "8.1.0"
   },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=8.0.0"
+  },
   "devDependencies": {
     "hexo": "^8.0.0",
     "hexo-asset-img": "^1.2.0",
