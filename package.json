@@ -9,13 +9,14 @@
     "server": "npx hexo server",
     "vercel-build": "node build.js",
     "now-build": "node build.js",
-    "hexo:generate": "npx hexo generate"
+    "hexo:generate": "npx hexo generate",
+    "vercel-deploy": "npm install && node build.js"
   },
   "hexo": {
     "version": "8.1.1"
   },
   "engines": {
-    "node": ">=20.0.0",
+    "node": "20.x",
     "npm": ">=8.0.0"
   },
   "devDependencies": {
