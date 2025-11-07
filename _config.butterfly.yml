@@ -43,26 +43,33 @@ Friends:
 
 code_blocks:
   # Code block theme: darker / pale night / light / ocean / false
-  theme: darker
+  theme: ocean
   macStyle: true
   # Code block height limit (unit: px)
-  height_limit: false
-  word_wrap: false
+  height_limit: 300
+  word_wrap: true
 
   # Toolbar
   copy: true
   language: true
   # true: shrink the code blocks | false: expand the code blocks | none: expand code blocks and hide the button
   shrink: false
-  fullpage: false
+  fullpage: true
 
 # Social media links
 # Formal:
 #   icon: link || the description || color
 social:
-  fab fa-github: https://github.com/hrs036 || Github
+  fab fa-github-square: https://github.com/hrs036 || Github
   fas fa-envelope: mailto:1831476250@qq.com || Email
-  fa-brands fa-qq: http://wpa.qq.com/msgrd?v=3&uin=1831476250&site=qq&menu=yes || QQ
+  fab fa-qq: http://wpa.qq.com/msgrd?v=3&uin=1831476250&site=qq&menu=yes || QQ
+  fab fa-weibo: https://weibo.com/uid/7349006625
+  fab fa-behance: https://space.bilibili.com/621129467
+  fas fa-code: https://blog.csdn.net/Subbsx
+  fab fa-zhihu: https://www.zhihu.com/people/xue-xi-dai-shuawang-ke
+  fab fa-tiktok: https://www.douyin.com/user/ixixjxjjw
+  fab fa-douban: https://www.douban.com/people/214671582/?_i=1670284zONRZFB
+
 
 # --------------------------------------
 # Image Settings
@@ -71,7 +78,7 @@ social:
 favicon: /img/favicon.png
 
 avatar:
-  img: /img/butterfly-icon.png
+  img: /img/avatar.jpg
   effect: false
 
 # Disable all banner images
@@ -137,7 +144,7 @@ post_meta:
     # Choose: date / relative
     date_format: date
     categories: true
-    tags: false
+    tags: true
     label: true
   post:
     # Choose: left / center
@@ -222,13 +229,13 @@ post_copyright:
 
 # Sponsor/reward
 reward:
-  enable: false
-  text:
+  enable: true
+  text: 如果您觉得本站对您有帮助，请打赏支持一下
   QR_code:
-    # - img: /img/wechat.jpg
+    - img: /img/wechat.jpg
     #   link:
     #   text: wechat
-    # - img: /img/alipay.jpg
+    - img: /img/alipay.jpg
     #   link:
     #   text: alipay
 
@@ -246,7 +253,7 @@ related_post:
   # Number of posts displayed
   limit: 6
   # Choose: created / updated
-  date_type: created
+  date_type: updated
 
 # Choose: 1 / 2 / false
 # 1: The 'next post' will link to old post
@@ -279,6 +286,8 @@ footer:
     enable: true
     version: true
   custom_text: |
+   欢迎访问我的博客！
+   联系方式：1831476250@qq.com|
     ❤感谢 <a href="https://github.com/Dragon1573">Dragon1573</a> 的部署协助❤
 
 aside:
@@ -291,7 +300,7 @@ aside:
   button: true
   mobile: true
   # Position: left / right
-  position: right
+  position: left
   display:
     archive: true
     tag: true
@@ -301,22 +310,22 @@ aside:
     description:
     button:
       enable: true
-      icon: fab fa-github
+      icon: fas fa-yin-yang
       text: GitHub Repository
       link: https://github.com/hrs036/hrs036.github.io
   card_announcement:
     enable: true
-    content: 我的个人博客
+    content: 欢迎来到我的个人博客
   card_recent_post:
     enable: true
     # If set 0 will show all
-    limit: 5
+    limit: 10
     # Sort: date / updated
     sort: date
-    sort_order:
+    sort_order: desc
   card_newest_comments:
     enable: false
-    sort_order:
+    sort_order: desc
     limit: 6
     # Unit: mins, save data to localStorage
     storage: 10
@@ -326,13 +335,13 @@ aside:
     # If set 0 will show all
     limit: 8
     # Choose: none / true / false
-    expand: none
+    expand: true
     sort_order:
   card_tags:
     enable: true
     # If set 0 will show all
     limit: 40
-    color: false
+    color: true
     # Order of tags, random/name/length
     orderby: random
     # Sort of order. 1, asc for ascending; -1, desc for descending
@@ -352,21 +361,22 @@ aside:
   card_post_series:
     enable: true
     # The title shows the series name
-    series_title: false
+    series_title: true
     # Order by title or date
-    orderBy: 'date'
+    orderBy: date
     # Sort of order. 1, asc for ascending; -1, desc for descending
     order: -1
-  card_webinfo:
+    card_webinfo:
+    post_count: true
+    last_post: true
+    sort_order: desc
+    
+card_webinfo:
     enable: true
     post_count: true
-    last_push_date: true
-    sort_order: # Time difference between publish date and now
-
-    # Formal: Month/Day/Year Time or Year/Month/Day Time
-    # Leave it empty if you don't enable this feature
-    runtime_date:
-
+    last_post: true
+    sort_order: desc
+    runtime_date: 2025-10-11
       # --------------------------------------
       # Bottom right button
       # --------------------------------------
@@ -379,6 +389,7 @@ translate:
   enable: false
   # The text of a button
   default: 繁
+  # The text of a button
   # the language of website (1 - Traditional Chinese/ 2 - Simplified Chinese）
   defaultEncoding: 2
   # Time delay
@@ -402,8 +413,8 @@ darkmode:
   # autoChangeMode: false
   autoChangeMode: false
   # Set the light mode time. The value is between 0 and 24. If not set, the default value is 6 and 18
-  start:
-  end:
+  start: 6：30
+  end: 17：30
 
     # Show scroll percent in scroll-to-top button
 rightside_scroll_percent: false
@@ -417,6 +428,10 @@ rightside_item_order:
   hide: # Default: toc,chat,comment
 
   show:
+    -readmode
+    -translate
+    -darkmode
+    -hideAside
 
     # Animation for the bottom right config button
 rightside_config_animation: true
@@ -437,7 +452,7 @@ copy:
   enable: true
   # Add the copyright information after copied content
   copyright:
-    enable: true
+    enable: false
     limit_count: 120
 
 # Need to install the hexo-wordcount plugin
@@ -495,7 +510,7 @@ search:
     # Number of search results per page
     hitsPerPage: 6
 
-  # Local Search
+  # Local Search搜索
   local_search:
     # Preload the search data when the page loads.
     preload: false
@@ -512,6 +527,7 @@ search:
 
       # Docsearch
       # https://docsearch.algolia.com/
+      评论系统
   docsearch:
     appId:
     apiKey:
@@ -622,14 +638,7 @@ utterances:
 
     # Facebook Comments Plugin
     # https://developers.facebook.com/docs/plugins/comments/
-facebook_comments:
-  app_id: # optional
 
-  user_id:
-  pageSize: 10
-  # Choose: social / time / reverse_time
-  order_by: social
-  lang: en_US
 
 # Twikoo
 # https://github.com/imaegoo/twikoo
@@ -791,7 +800,11 @@ site_verification:
 # Choose: index - same as Homepage UI / default - same as archives UI
 # leave it empty or index
 category_ui:
+  enable： true
+  style： "modern"
 tag_ui:
+enable: true
+style: "modern"
 
 # Rounded corners for UI elements
 rounded_corners_ui: true
@@ -806,11 +819,11 @@ mask:
 
 # Loading Animation
 preloader:
-  enable: false
+  enable: true
   # source
   # 1. fullpage-loading
   # 2. pace (progress bar)
-  source: 1
+  source: 2
   # pace theme (see https://codebyzach.github.io/pace/)
   pace_css_url:
 
@@ -832,31 +845,32 @@ beautify:
 
     # Global font settings
     # Don't modify the following settings unless you know how they work
-font:
-  global_font_size:
-  code_font_size:
-  font_family:
-  code_font_family:
+font:      #字体设置
+  enable: true
+  global_font_size: 16px
+  font_family: KaiTi
+  code_font_size: 14px
+  code_font_family: Monaco 
 
     # Font settings for the site title and site subtitle
 blog_title_font:
   font_link:
-  font_family:
+  font_family: Roboto
 
     # The setting of divider icon
 hr_icon:
   enable: true
   # The unicode value of Font Awesome icon, such as '\3423'
-  icon:
-  icon_top:
+  icon: '\3423'
+  icon_top: 10px
 
     # Typewriter Effect
     # https://github.com/disjukr/activate-power-mode
 activate_power_mode:
-  enable: false
+  enable: true
   colorful: true
   shake: true
-  mobile: false
+  mobile: true
 
 # Background effects
 # --------------------------------------
@@ -930,17 +944,17 @@ lightbox:
 
 # Series
 series:
-  enable: false
+  enable: true
   # Order by title or date
   orderBy: 'title'
   # Sort of order. 1, asc for ascending; -1, desc for descending
-  order: 1
+  order: -1
   number: true
 
 # ABCJS - The ABC Music Notation Plugin
 # https://github.com/paulrosen/abcjs
 abcjs:
-  enable: false
+  enable: true
   per_page: true
 
 # Mermaid
