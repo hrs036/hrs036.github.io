@@ -2,10 +2,5 @@
   "version": 2,
   "buildCommand": "npm install && node build.js",
   "outputDirectory": "public",
-  "installCommand": "npm install",
-  "functions": {
-    "api/*.js": {
-      "runtime": "nodejs20.x"
-    }
-  }
+  "installCommand": "npm install"
 }
