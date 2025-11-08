@@ -1,25 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2025/10/28/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start">Quick Start</h2>
-<h3 id="Create-a-new-post">Create a new post</h3>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server">Run server</h3>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files">Generate static files</h3>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
     <title>我的第一篇博客文章</title>
     <url>/2024/01/15/%E5%A4%A7%E5%AE%B6%E5%A5%BD/</url>
     <content><![CDATA[<h1>欢迎来到我的博客！</h1>
@@ -53,309 +34,6 @@ yard install</code></pre>
         <tag>博客搭建</tag>
         <tag>教程</tag>
       </tags>
-  </entry>
-  <entry>
-    <title>🪓 刀塔2屠夫完全攻略：从入门到钩神 | Dota 2 Pudge Guide</title>
-    <url>/2024/01/20/%E5%88%80%E5%A1%942%E5%B1%A0%E5%A4%AB%E7%9A%84%E7%8E%A9%E6%B3%95/</url>
-    <content><![CDATA[<pre class="line-numbers language-chart" data-language="chart"><code class="language-chart">类型: 进度条  
-标题: 技能掌握进度
-数据:
-  - 技能: 钩子准确率
-    进度: 75
-  - 技能: 团战定位
-    进度: 80  
-  - 技能: 装备理解
-    进度: 85
-  - 技能: 地图意识
-    进度: 70<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
-<p>🪓 刀塔2屠夫完全攻略：从入门到钩神</p>
-<p>「Fresh meat!」  —— 帕吉，屠夫</p>
-<div align="center">
-<img src="https://static.wikia.nocookie.net/dota2_gamepedia/images/7/73/Pudge_icon.png/revision/latest?cb=20160101203532" width="100" alt="屠夫图标">
-</div>
-<p>🎯 英雄定位与核心机制</p>
-<p>英雄基础信息</p>
-<p>属性 详细信息</p>
-<p>英雄名称 帕吉 - Pudge</p>
-<p>主属性 🏋️ 力量</p>
-<p>定位 坦克、控制、先手、爆发</p>
-<p>推荐位置 2号位（中单）、3号位（劣势路）、4号位（游走）</p>
-<p>🔥 核心玩法理念</p>
-<p>屠夫是一个高风险高回报的力量英雄，其核心玩法围绕肉钩技能展开。通过精准的钩子改变战场格局，同时依靠高力量成长和生存能力成为团队的前排堡垒。</p>
-<p>⚡ 技能详细解析</p>
-<ol>
-<li>🪝 肉钩 - Meat Hook</li>
-</ol>
-<p><strong>技能类型</strong>: 指向性技能<br>
-<strong>伤害类型</strong>: 纯粹伤害<br>
-<strong>特殊效果</strong>: 无视技能免疫<br>
-<strong>射程</strong>: 1300/1400/1500/1600<br>
-<strong>钩子速度</strong>: 1600<br>
-<strong>伤害</strong>: 90/180/270/360</p>
-<p>💡 技巧提示: 钩子的命中率是屠夫玩家的生命线！预判敌人走位，利用树林和阴影出奇制胜。</p>
-<ol start="2">
-<li>🦠 腐烂 - Rot</li>
-</ol>
-<p><strong>技能类型</strong>: 瞬时开启/关闭<br>
-<strong>伤害类型</strong>: 魔法伤害（对自身和敌人）<br>
-<strong>作用范围</strong>: 250<br>
-<strong>每秒伤害</strong>: 30/60/90/120<br>
-<strong>减速效果</strong>: 20%/22%/24%/26%</p>
-<p>⚠️ 注意: 腐烂会对自身造成伤害，使用时需注意血量管理！</p>
-<ol start="3">
-<li>🛡️ 腐肉堆积 - Flesh Heap</li>
-</ol>
-<p><strong>技能类型</strong>: 被动技能<br>
-<strong>效果</strong>: 提供魔法抗性，周围有英雄死亡时永久增加力量<br>
-<strong>魔法抗性</strong>: 6%/8%/10%/12%<br>
-<strong>力量加成</strong>: 1.2/1.5/1.8/2.1 每死亡英雄</p>
-<ol start="4">
-<li>🦷 肢解 - Dismember</li>
-</ol>
-<p><strong>技能类型</strong>: 单位目标<br>
-<strong>效果</strong>: 持续控制并造成伤害，同时为屠夫恢复生命值<br>
-<strong>持续时间</strong>: 3秒<br>
-<strong>每秒伤害</strong>: 60/90/120<br>
-<strong>生命恢复</strong>: 30/45/60% 伤害值</p>
-<ol start="5">
-<li>🌟 先天技能 - 血肉献祭</li>
-</ol>
-<p><strong>效果</strong>: 附近1200范围内有敌方英雄死亡时，永久获得力量值<br>
-<strong>力量加成</strong>: 1.5力量/死亡英雄</p>
-<p>🎮 技能加点顺序</p>
-<p>推荐加点方案（中单/核心位）</p>
-<p>等级 技能选择 说明</p>
-<p>1 🪝 肉钩 一级学钩，有机会拿一血</p>
-<p>2 🦠 腐烂 增加线上压制力</p>
-<p>3 🪝 肉钩 主升钩子，提高伤害和距离</p>
-<p>4 🛡️ 腐肉堆积 一级腐肉提供魔法抗性</p>
-<p>5 🪝 肉钩 继续主升钩子</p>
-<p>6 🦷 肢解 学习大招，具备单杀能力</p>
-<p>7 🪝 肉钩 钩子升满</p>
-<p>8-10 🦠 腐烂 副升腐烂增加伤害</p>
-<p>11 🦷 肢解 升级大招</p>
-<p>12-14 🛡️ 腐肉堆积 提升生存能力</p>
-<p>15-25 属性/剩余技能<br>
-天赋树选择<br>
-等级 左天赋 右天赋 推荐选择</p>
-<p>10 +1.5s 肢解持续时间 +25% 腐烂减速 ✅ +1.5s 肢解</p>
-<p>15 +25% 魔法抗性 +20 力量 ✅ +20 力量</p>
-<p>20 +25% 技能吸血 肉钩无视技能免疫 ✅ 肉钩无视技能免疫</p>
-<p>25 -4s 肉钩冷却 +1.5% 腐肉堆积力量加成 ✅ +1.5% 腐肉堆积力量加成</p>
-<p>🛒 出装路线指南</p>
-<p>出门装（500-600金）</p>
-<ul>
-<li>🥾 速度之靴 (500g)</li>
-<li>🧪 治疗药膏 x2 (200g)</li>
-<li>🔵 魔法芒果 x2 (140g)</li>
-<li>🌳 树之祭祀 x2 (180g)</li>
-</ul>
-<p>前期核心（对线期）</p>
-<p>物品 效果 优先级</p>
-<p>魔棒 提供瞬时恢复 ⭐⭐⭐⭐⭐</p>
-<p>灵魂之戒 解决魔法问题 ⭐⭐⭐⭐</p>
-<p>动力鞋 属性+攻速 ⭐⭐⭐⭐</p>
-<p>魔抗斗篷 增强生存 ⭐⭐⭐</p>
-<p>中期核心装备</p>
-<table>
-<tr>
-    <th>物品</th>
-    <th>图标</th>
-    <th>效果</th>
-    <th>推荐度</th>
-</tr>
-<tr>
-    <td><strong>闪烁匕首</strong></td>
-    <td>🔪</td>
-    <td>先手跳钩，改变战局</td>
-    <td>⭐⭐⭐⭐⭐</td>
-</tr>
-<tr>
-    <td><strong>A杖</strong></td>
-    <td>🔮</td>
-    <td>大幅提升大招效果</td>
-    <td>⭐⭐⭐⭐</td>
-</tr>
-<tr>
-    <td><strong>刃甲</strong></td>
-    <td>🛡️</td>
-    <td>反弹伤害，克制爆发</td>
-    <td>⭐⭐⭐⭐</td>
-</tr>
-<tr>
-    <td><strong>希瓦的守护</strong></td>
-    <td>❄️</td>
-    <td>护甲+控制+智力</td>
-    <td>⭐⭐⭐</td>
-</tr>
-</table>
-<p>后期神装选择</p>
-<h2 id="🎯-六神装配置">🎯 六神装配置</h2>
-<ol>
-<li><strong>远行鞋</strong> - 全球支援，带线牵制</li>
-<li><strong>闪烁匕首</strong> - 核心先手道具</li>
-<li><strong>阿哈利姆神杖</strong> - 质变装备</li>
-<li><strong>刃甲</strong> - 伤害反弹</li>
-<li><strong>希瓦的守护</strong> - 护甲与控制</li>
-<li><strong>黑皇杖</strong> - 魔法免疫</li>
-<li><strong>恐鳌之心</strong> - 终极生存</li>
-</ol>
-<p><strong>备用选择</strong>: 莲花球、强袭装甲、刷新球</p>
-<p>🎯 对线与打法思路</p>
-<p>对线期策略</p>
-<p>🎯 核心目标: 生存发育，寻找击杀机会</p>
-<ol>
-<li><strong>补刀优先</strong>: 利用高攻击力补好每个刀</li>
-<li><strong>钩子威慑</strong>: 即使不出钩，也要让敌人感受到压力</li>
-<li><strong>状态保持</strong>: 多买补给，确保随时可以战斗</li>
-<li><strong>游走时机</strong>: 到达6级后积极游走其他路</li>
-</ol>
-<p>中期节奏</p>
-<p>⚡ 游戏转折点: 跳刀第一波节奏至关重要</p>
-<ol>
-<li><strong>跳刀timing</strong>: 尽快做出闪烁匕首</li>
-<li><strong>地图控制</strong>: 配合队友控制视野和肉山</li>
-<li><strong>抓人节奏</strong>: 持续给对方核心压力</li>
-<li><strong>装备选择</strong>: 根据局势灵活出装</li>
-</ol>
-<p>团战打法</p>
-<p>🏆 团战定位: 先手控制，吸收伤害</p>
-<ul>
-<li><strong>完美先手</strong>: 跳刀 → 钩子 → 腐烂 → 大招</li>
-<li><strong>保护后排</strong>: 用钩子解救被切的队友</li>
-<li><strong>技能衔接</strong>: 确保控制链完整</li>
-<li><strong>位置选择</strong>: 站在队伍前排，但注意不被先手</li>
-</ul>
-<p>🔄 进阶技巧与细节</p>
-<p>钩子技巧大全</p>
-<p>技巧名称 操作方法 适用场景</p>
-<p>盲钩 向敌人可能经过的路径出钩 敌人有视野优势时</p>
-<p>跳钩 跳刀接近后近距离出钩 确保命中率</p>
-<p>推推钩 用原力法杖调整位置 地形复杂时</p>
-<p>预判钩 预判敌人走位方向 追击移动目标</p>
-<p>连招组合</p>
-<h2 id="🔥-标准单杀连招">🔥 标准单杀连招</h2>
-<ol>
-<li>跳刀接近</li>
-<li>开启腐烂</li>
-<li>大招肢解控制</li>
-<li>钩子带回防止逃脱</li>
-<li>持续腐烂伤害</li>
-</ol>
-<h2 id="🎯-团战先手连招">🎯 团战先手连招</h2>
-<ol>
-<li>跳刀切入</li>
-<li>钩中关键英雄</li>
-<li>立即开启腐烂和大招</li>
-<li>刃甲开启吸收伤害</li>
-</ol>
-<p>🤝 英雄搭配与克制</p>
-<p>最佳队友</p>
-<div align="center">
-<p>英雄 配合理由 配合度</p>
-<p>黑暗贤者 真空+钩子完美combo ⭐⭐⭐⭐⭐</p>
-<p>猛犸 两极反转接钩 ⭐⭐⭐⭐</p>
-<p>上古巨神 回音践踏控制链 ⭐⭐⭐⭐</p>
-<p>工程师 炸弹+钩子陷阱 ⭐⭐⭐</p>
-</div>
-<p>天敌克制</p>
-<h2 id="🚫-需要警惕的对手">🚫 需要警惕的对手</h2>
-<p><strong>高机动英雄</strong>:</p>
-<ul>
-<li>风暴之灵 ⚡</li>
-<li>痛苦女王 👑</li>
-<li>幻影长矛手 🐒</li>
-</ul>
-<p><strong>驱散类英雄</strong>:</p>
-<ul>
-<li>神谕者 🔮</li>
-<li>巨牙海民 🐘</li>
-</ul>
-<p><strong>无视魔免控制</strong>:</p>
-<ul>
-<li>兽王 🪓</li>
-<li>谜团 🌌</li>
-</ul>
-<p>📊 数据统计与进阶指标</p>
-<p>关键时间节点</p>
-<p>游戏时间 目标达成 经济指标</p>
-<p>10分钟 等级6-7，灵魂之戒 3-4K经济</p>
-<p>20分钟 跳刀+刃甲/魔晶 8-10K经济<br>
-30分钟 核心三件套 15-18K经济</p>
-<p>40分钟+ 六神装成型 25K+经济</p>
-<p>技能数据深度分析</p>
-<p>类型: 雷达图<br>
-标题: 屠夫技能强度分布<br>
-数据:</p>
-<ul>
-<li>技能: 爆发伤害<br>
-数值: 75</li>
-<li>技能: 控制能力<br>
-数值: 90</li>
-<li>技能: 生存能力<br>
-数值: 85</li>
-<li>技能: 机动性<br>
-数值: 40</li>
-<li>技能: 成长性<br>
-数值: 95</li>
-</ul>
-<p>🎖️ 实战案例与精彩集锦</p>
-<p>经典战术执行</p>
-<p>📹 推荐观看: <a href="https://www.youtube.com/results?search_query=dota2+pudge+ti">https://www.youtube.com/results?search_query=dota2+pudge+ti</a></p>
-<h2 id="🏆-职业比赛经典镜头">🏆 职业比赛经典镜头</h2>
-<ol>
-<li><strong>Dendi的奇迹之钩</strong> - TI1经典时刻</li>
-<li><strong>FY-God的灵性屠夫</strong> - 完美节奏带动</li>
-<li><strong>Miracle-的中单屠夫</strong> - 对线压制典范</li>
-</ol>
-<p>训练建议</p>
-<h2 id="💪-提升计划表">💪 提升计划表</h2>
-<p><strong>每日训练</strong>:</p>
-<ul>
-<li>[ ] 钩子练习房 30分钟</li>
-<li>[ ] 录像复盘 1场对局</li>
-<li>[ ] 天梯实战 2-3局</li>
-</ul>
-<p><strong>重点提升</strong>:</p>
-<ul>
-<li>钩子预判准确率</li>
-<li>地图意识与游走时机</li>
-<li>装备路线选择合理性</li>
-</ul>
-<p>🔮 版本趋势与未来发展</p>
-<p>当前版本强度评级</p>
-<p>方面 评分 评价</p>
-<p>对线能力 7/10 中规中矩</p>
-<p>游走能力 9/10 顶级游走</p>
-<p>团战作用 8/10 强力先手</p>
-<p>后期能力 6/10 相对疲软</p>
-<p>未来发展方向</p>
-<blockquote>
-<p>🎯 <strong>趋势预测</strong>: 随着版本更迭，屠夫将更注重团队配合和先手能力，<br>
-个人carry的能力会逐渐减弱，但战略价值永远存在！</p>
-</blockquote>
-<p>💎 总结与最终建议</p>
-<p>屠夫是一个极具魅力和操作感的英雄，想要玩好需要：</p>
-<ol>
-<li>🎯 精准的钩子技巧 - 持续练习预判和出手时机</li>
-<li>⚡ 敏锐的游戏意识 - 把握游走和团战时机</li>
-<li>🛡️ 正确的装备选择 - 根据局势灵活出装</li>
-<li>🤝 良好的团队沟通 - 与队友配合完成击杀</li>
-</ol>
-<div align="center">
-<p>🏆 屠夫玩家终极信条</p>
-<p>「钩不准不可怕，可怕的是不敢出钩！」</p>
-<p>不断练习，勇于尝试，你也能成为令人闻风丧胆的钩神！</p>
-<img src="https://static.wikia.nocookie.net/dota2_gamepedia/images/7/73/Pudge_icon.png/revision/latest?cb=20160101203532" width="50" alt="屠夫图标"> 
-GL HF! 愿肉钩永远与你同在! 🪝
-</div>
-<p>本文档最后更新: 2024年1月 | 基于Dota 2最新版本分析<br>
-更多刀塔2攻略请关注: <a href="https://www.dota2.com.cn/">https://www.dota2.com.cn/</a> | <a href="https://www.dotabuff.com/heroes/pudge">https://www.dotabuff.com/heroes/pudge</a></p>
-]]></content>
-      <categories>
-        <category>游戏攻略</category>
-        <category>刀塔2</category>
-      </categories>
   </entry>
   <entry>
     <title>梦绕神州路 the dream of back the path of plain of china</title>
@@ -393,6 +71,25 @@ GL HF! 愿肉钩永远与你同在! 🪝
       <tags>
         <tag>诗歌</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Hello World</title>
+    <url>/2025/10/28/hello-world/</url>
+    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="Quick-Start">Quick Start</h2>
+<h3 id="Create-a-new-post">Create a new post</h3>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="Run-server">Run server</h3>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="Generate-static-files">Generate static files</h3>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
+<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+]]></content>
   </entry>
   <entry>
     <title>python课程学习</title>
