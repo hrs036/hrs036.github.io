@@ -1,78 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>我的第一篇博客文章</title>
-    <url>/2024/01/15/%E5%A4%A7%E5%AE%B6%E5%A5%BD/</url>
-    <content><![CDATA[<h1>欢迎来到我的博客！</h1>
-<p>这是我的第一篇博客文章，使用 Hexo 和 Matery 主题搭建。在这里，我将分享技术学习心得、生活感悟和各种有趣的内容。</p>
-<h2 id="🚀-Hexo-博客搭建经历">🚀 Hexo 博客搭建经历</h2>
-<h3 id="为什么选择-Hexo？">为什么选择 Hexo？</h3>
-<ul>
-<li><strong>快速简单</strong>：基于 Node.js，生成静态页面速度极快</li>
-<li><strong>主题丰富</strong>：有大量美观的主题可供选择</li>
-<li><strong>Markdown支持</strong>：专注于内容写作，无需关心样式</li>
-</ul>
-<h3 id="搭建过程中遇到的挑战">搭建过程中遇到的挑战</h3>
-<ol>
-<li><strong>环境配置</strong><pre><code class="language-bash"># 安装 Hexo
-yard install -g hexo-cli
-
-# 初始化博客
-hexo init myblog
-cd myblog
-
-# 安装依赖
-yard install</code></pre>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>技术分享</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>博客搭建</tag>
-        <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>梦绕神州路 the dream of back the path of plain of china</title>
-    <url>/2025/11/07/%E6%A2%A6%E7%BB%95%E7%A5%9E%E5%B7%9E%E8%B7%AF/</url>
-    <content><![CDATA[<h1>梦绕神州路</h1>
-<p>惆秋风 连营画角 故宫离黍<br>
-底事昆仑倾砥柱 九地黄流乱注<br>
-聚万落千村孤兔<br>
-天意从来高难问 况且人情易老悲难诉<br>
-更南浦 送君去<br>
-凉生岸柳催残暑<br>
-耿斜河 疏星残月 断云微度<br>
-万里江山知何处 回首对床夜语<br>
-雁不到书成谁与 目尽青天怀今古 肯儿曹恩怨相尔汝 举大白 听金缕</p>
-<h2 id="本人的翻译和见解">本人的翻译和见解</h2>
-<p>此词是南宋词人张元干作品，词牌名为“梦绕神州路”。<br>
-开头 惆秋风 连营画角 故宫离黍<br>
-惆怅于秋季之风 连营画角（梦回吹角连营画） 故宫离黍（离别故宫离别黍）<br>
-底事昆仑倾砥柱 九地黄流乱注<br>
-这句借用昆仑山倾斜 九曲黄河乱流 形容中原沦落<br>
-聚万落千村孤兔<br>
-本来应该是人口聚集的村落 现在是孤兔聚集</p>
-<h3 id="天意从来高难问-况且人情易老悲难诉">天意从来高难问 况且人情易老悲难诉</h3>
-<p>这句形容天意难测 主战派和主和派争论不休<br>
-更南浦 送君去 送别友人<br>
-下面是用夜晚星空风景 想到万里江山知何处 只徒有床前对语<br>
-大雁没到 写好的书信寄给谁呢？ 望着青天 眼前闪过往昔<br>
-不能像儿女情长一样恩恩怨怨<br>
-举起大白 听着金缕曲</p>
-<p><a href="https://chagushici.com/ju/573066">诗词</a></p>
-]]></content>
-      <categories>
-        <category>诗歌</category>
-      </categories>
-      <tags>
-        <tag>诗歌</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2025/10/28/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -141,9 +69,81 @@ print format int str函数<br>
         <category>技术分享</category>
       </categories>
       <tags>
-        <tag>教程</tag>
         <tag>python</tag>
         <tag>学习感悟</tag>
+        <tag>教程</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>我的第一篇博客文章</title>
+    <url>/2024/01/15/%E5%A4%A7%E5%AE%B6%E5%A5%BD/</url>
+    <content><![CDATA[<h1>欢迎来到我的博客！</h1>
+<p>这是我的第一篇博客文章，使用 Hexo 和 Matery 主题搭建。在这里，我将分享技术学习心得、生活感悟和各种有趣的内容。</p>
+<h2 id="🚀-Hexo-博客搭建经历">🚀 Hexo 博客搭建经历</h2>
+<h3 id="为什么选择-Hexo？">为什么选择 Hexo？</h3>
+<ul>
+<li><strong>快速简单</strong>：基于 Node.js，生成静态页面速度极快</li>
+<li><strong>主题丰富</strong>：有大量美观的主题可供选择</li>
+<li><strong>Markdown支持</strong>：专注于内容写作，无需关心样式</li>
+</ul>
+<h3 id="搭建过程中遇到的挑战">搭建过程中遇到的挑战</h3>
+<ol>
+<li><strong>环境配置</strong><pre><code class="language-bash"># 安装 Hexo
+yard install -g hexo-cli
+
+# 初始化博客
+hexo init myblog
+cd myblog
+
+# 安装依赖
+yard install</code></pre>
+</li>
+</ol>
+]]></content>
+      <categories>
+        <category>技术分享</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>Hexo</tag>
+        <tag>博客搭建</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>梦绕神州路 the dream of back the path of plain of china</title>
+    <url>/2025/11/07/%E6%A2%A6%E7%BB%95%E7%A5%9E%E5%B7%9E%E8%B7%AF/</url>
+    <content><![CDATA[<h1>梦绕神州路</h1>
+<p>惆秋风 连营画角 故宫离黍<br>
+底事昆仑倾砥柱 九地黄流乱注<br>
+聚万落千村孤兔<br>
+天意从来高难问 况且人情易老悲难诉<br>
+更南浦 送君去<br>
+凉生岸柳催残暑<br>
+耿斜河 疏星残月 断云微度<br>
+万里江山知何处 回首对床夜语<br>
+雁不到书成谁与 目尽青天怀今古 肯儿曹恩怨相尔汝 举大白 听金缕</p>
+<h2 id="本人的翻译和见解">本人的翻译和见解</h2>
+<p>此词是南宋词人张元干作品，词牌名为“梦绕神州路”。<br>
+开头 惆秋风 连营画角 故宫离黍<br>
+惆怅于秋季之风 连营画角（梦回吹角连营画） 故宫离黍（离别故宫离别黍）<br>
+底事昆仑倾砥柱 九地黄流乱注<br>
+这句借用昆仑山倾斜 九曲黄河乱流 形容中原沦落<br>
+聚万落千村孤兔<br>
+本来应该是人口聚集的村落 现在是孤兔聚集</p>
+<h3 id="天意从来高难问-况且人情易老悲难诉">天意从来高难问 况且人情易老悲难诉</h3>
+<p>这句形容天意难测 主战派和主和派争论不休<br>
+更南浦 送君去 送别友人<br>
+下面是用夜晚星空风景 想到万里江山知何处 只徒有床前对语<br>
+大雁没到 写好的书信寄给谁呢？ 望着青天 眼前闪过往昔<br>
+不能像儿女情长一样恩恩怨怨<br>
+举起大白 听着金缕曲</p>
+<p><a href="https://chagushici.com/ju/573066">诗词</a></p>
+]]></content>
+      <categories>
+        <category>诗歌</category>
+      </categories>
+      <tags>
+        <tag>诗歌</tag>
       </tags>
   </entry>
 </search>

@@ -1,0 +1,175 @@
+/* 卡片移动效果模块样式 - 简约风黑白灰色调 */
+.welcome-banner {
+  position: relative;
+  width: 60%;
+  height: 280px;
+  margin: 2rem auto;
+  background: linear-gradient(135deg, 
+    #FFFFFF 0%, 
+    #FAFAFA 50%, 
+    #F5F5F5 100%);
+  border: 1px solid #E0E0E0;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.welcome-content {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* 移动卡片容器 */
+.moving-cards-container {
+  position: relative;
+  width: 100%;
+  height: 240px;
+  overflow: hidden;
+}
+
+.moving-cards {
+  display: flex;
+  gap: 20px;
+  animation: slideCards 20s linear infinite;
+  width: max-content;
+  height: 100%;
+  align-items: center;
+}
+
+.moving-card {
+  flex: 0 0 auto;
+  width: 90px;
+  height: 90px;
+  background: linear-gradient(135deg, 
+    #FFFFFF 0%, 
+    #F8F8F8 50%, 
+    #F0F0F0 100%);
+  border-radius: 6px;
+  padding: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  cursor: pointer;
+  border: 1px solid #E0E0E0;
+  z-index: 1;
+  pointer-events: auto;
+}
+
+.moving-card:hover {
+  transform: scale(1.15);
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.2);
+  border-color: rgba(255, 255, 255, 0.5);
+  z-index: 10;
+  animation-play-state: paused;
+}
+
+.moving-card i {
+  font-size: 2rem;
+  margin-bottom: 0.4rem;
+  filter: drop-shadow(0 2px 4px rgba(0, 0, 0, 0.1));
+}
+
+.moving-card-title {
+  font-weight: 600;
+  font-size: 0.8rem;
+  margin-bottom: 0.2rem;
+  letter-spacing: 0.3px;
+}
+
+.moving-card-desc {
+  font-size: 0.7rem;
+  opacity: 0.8;
+  line-height: 1.2;
+}
+
+/* 动画效果 */
+@keyframes slideCards {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .welcome-banner {
+    width: 80%;
+    height: 200px;
+    margin: 1rem auto;
+    border-radius: 12px;
+    border-width: 1px;
+    box-shadow: 0 4px 15px rgba(255, 183, 77, 0.15);
+  }
+  
+  .welcome-content {
+    padding: 15px;
+  }
+  
+  .moving-cards-container {
+    height: 170px;
+  }
+  
+  .moving-card {
+    width: 70px;
+    height: 70px;
+    border-radius: 12px;
+    padding: 0.6rem;
+  }
+  
+  .moving-card i {
+    font-size: 1.5rem;
+    margin-bottom: 0.3rem;
+  }
+  
+  .moving-card-title {
+    font-size: 0.7rem;
+  }
+  
+  .moving-card-desc {
+    font-size: 0.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .welcome-banner {
+    width: 90%;
+    height: 180px;
+    margin: 0.5rem auto;
+  }
+  
+  .welcome-content {
+    padding: 10px;
+  }
+  
+  .moving-cards-container {
+    height: 160px;
+  }
+  
+  .moving-card {
+    width: 65px;
+    height: 65px;
+    border-radius: 10px;
+    padding: 0.5rem;
+  }
+  
+  .moving-card i {
+    font-size: 1.3rem;
+  }
+  
+  .moving-card-title {
+    font-size: 0.65rem;
+  }
+  
+  .moving-card-desc {
+    font-size: 0.55rem;
+  }
+}

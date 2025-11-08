@@ -1,0 +1,189 @@
+/* 简约风黑白灰色调主题样式 */
+
+/* 全局背景样式 */
+body {
+  background: linear-gradient(135deg, 
+    #FFFFFF 0%, 
+    #F8F8F8 50%, 
+    #F0F0F0 100%) !important;
+  background-attachment: fixed !important;
+  background-size: cover !important;
+  font-family: 'Helvetica Neue', Arial, 'PingFang SC', 'Microsoft YaHei', sans-serif !important;
+  color: #333333 !important;
+}
+
+/* 头部导航栏简约风格 */
+.header {
+  background: linear-gradient(135deg, 
+    #FFFFFF 0%, 
+    #F5F5F5 50%, 
+    #EEEEEE 100%) !important;
+  border-bottom: 1px solid #DDDDDD !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+}
+
+/* 主要内容区域简约风格 */
+.layout {
+  background: #FFFFFF !important;
+  border: 1px solid #E0E0E0 !important;
+  border-radius: 8px !important;
+  margin: 20px auto !important;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
+}
+
+/* 侧边栏简约风格 */
+.aside-content {
+  background: #FAFAFA !important;
+  border: 1px solid #E0E0E0 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.04) !important;
+}
+
+/* 卡片简约风格 */
+.card-widget {
+  background: #FFFFFF !important;
+  border: 1px solid #E8E8E8 !important;
+  border-radius: 6px !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03) !important;
+}
+
+/* 文章卡片简约风格 */
+.recent-post-item {
+  background: #FFFFFF !important;
+  border: 1px solid #E8E8E8 !important;
+  border-radius: 8px !important;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04) !important;
+  transition: all 0.3s ease !important;
+}
+
+.recent-post-item:hover {
+  transform: translateY(-2px) !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08) !important;
+  border-color: #CCCCCC !important;
+}
+
+/* 按钮简约风格 */
+button, .btn, .pagination .page-number {
+  background: linear-gradient(135deg, #666666 0%, #555555 50%, #444444 100%) !important;
+  border: 1px solid #CCCCCC !important;
+  border-radius: 4px !important;
+  color: white !important;
+  font-weight: normal !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1) !important;
+  transition: all 0.2s ease !important;
+}
+
+button:hover, .btn:hover, .pagination .page-number:hover {
+  background: linear-gradient(135deg, #555555 0%, #444444 50%, #333333 100%) !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15) !important;
+}
+
+/* 链接简约风格 */
+a {
+  color: #555555 !important;
+  text-decoration: none !important;
+  transition: all 0.2s ease !important;
+}
+
+a:hover {
+  color: #333333 !important;
+  text-decoration: underline !important;
+}
+
+/* 标题简约风格 */
+h1, h2, h3, h4, h5, h6 {
+  color: #333333 !important;
+  border-bottom: 1px solid #E0E0E0 !important;
+  padding-bottom: 8px !important;
+  font-weight: 600 !important;
+}
+
+/* 代码块简约风格 */
+code, pre {
+  background: #F8F8F8 !important;
+  border: 1px solid #E8E8E8 !important;
+  border-radius: 4px !important;
+  color: #333333 !important;
+}
+
+/* 表格简约风格 */
+table {
+  background: #FFFFFF !important;
+  border: 1px solid #E0E0E0 !important;
+  border-radius: 6px !important;
+}
+
+table th {
+  background: #F5F5F5 !important;
+  color: #333333 !important;
+  font-weight: 600 !important;
+  border-bottom: 1px solid #E0E0E0 !important;
+}
+
+table td {
+  border-bottom: 1px solid #F0F0F0 !important;
+}
+
+/* 输入框简约风格 */
+input, textarea, select {
+  background: #FFFFFF !important;
+  border: 1px solid #CCCCCC !important;
+  border-radius: 4px !important;
+  color: #333333 !important;
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: #999999 !important;
+  box-shadow: 0 0 0 2px rgba(153, 153, 153, 0.1) !important;
+  outline: none !important;
+}
+
+/* 滚动条简约风格 */
+::-webkit-scrollbar {
+  width: 6px !important;
+}
+
+::-webkit-scrollbar-track {
+  background: #F5F5F5 !important;
+  border-radius: 3px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #CCCCCC !important;
+  border-radius: 3px !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #999999 !important;
+}
+
+/* 简约风格动画效果 */
+@keyframes subtleFade {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.95;
+  }
+}
+
+.minimal-element {
+  animation: subtleFade 3s ease-in-out infinite;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  .layout {
+    margin: 10px auto !important;
+    border-radius: 6px !important;
+  }
+  
+  .aside-content {
+    border-radius: 6px !important;
+  }
+  
+  .recent-post-item {
+    border-radius: 6px !important;
+  }
+}

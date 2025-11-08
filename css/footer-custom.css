@@ -1,0 +1,67 @@
+/* 页脚自定义样式 - 简约风黑白灰色调 */
+footer {
+  background: linear-gradient(135deg, 
+    #FFFFFF 0%, 
+    #F8F8F8 50%, 
+    #F0F0F0 100%) !important;
+  color: #666666 !important;
+  border-top: 1px solid #DDDDDD !important;
+}
+
+footer a {
+  color: #555555 !important;
+  transition: color 0.2s ease !important;
+}
+
+footer a:hover {
+  color: #333333 !important;
+  text-decoration: underline !important;
+}
+
+footer .footer-inner {
+  background: transparent !important;
+}
+
+footer .footer-item {
+  color: #666666 !important;
+}
+
+footer .copyright {
+  color: #888888 !important;
+}
+
+footer .custom-text {
+  color: #666666 !important;
+}
+
+/* 页脚按钮样式 */
+footer button {
+  background: #666666 !important;
+  color: #FFFFFF !important;
+  border: 1px solid #CCCCCC !important;
+}
+
+footer button:hover {
+  background: #555555 !important;
+  color: #FFFFFF !important;
+}
+
+/* 页脚图标样式 */
+footer i {
+  color: #777777 !important;
+}
+
+footer i:hover {
+  color: #555555 !important;
+}
+
+/* 页脚分隔线 */
+footer hr {
+  border-color: #E0E0E0 !important;
+  background-color: #E0E0E0 !important;
+}
+
+/* 页脚阴影效果 */
+footer {
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1) !important;
+}
