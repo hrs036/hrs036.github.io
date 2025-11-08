@@ -41,6 +41,5 @@
     "markdown-it-emoji": "^3.0.0",
     "markdown-it-mathjax3": "^5.2.0",
     "markdown-it-merge-cells": "^2.0.0"
-  },
-  "packageManager": "yarn@4.10.3"
+  }
 }
