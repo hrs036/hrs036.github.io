@@ -1,6 +1,18 @@
 {
-  "version": 2,
+  "$schema": "https://openapi.vercel.sh/vercel.json",
   "buildCommand": "npm install && node build.js",
+  "framework": "hexo",
+  "installCommand": "npm install",
   "outputDirectory": "public",
-  "installCommand": "npm install"
+  "public": true,
+  "regions": [
+    "hkg1"
+  ],
+  "functionFailoverRegions": [
+    "hnd1",
+    "kix1",
+    "icn1",
+    "sin1"
+  ],
+  "trailingSlash": true
 }
