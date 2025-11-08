@@ -172,7 +172,7 @@ index_top_img_height:
 subtitle:
   enable: true
   # Typewriter Effect
-  effect: false
+  effect: true
   # Customize typed.js
   # https://github.com/mattboldt/typed.js/#customization
   typed_option: # Source - Call the third-party service API (Chinese only)
