@@ -1,67 +1,104 @@
 /* 页脚自定义样式 - 简约风黑白灰色调 */
-footer {
+/* 针对Butterfly主题的页脚样式 */
+
+#footer {
   background: linear-gradient(135deg, 
     #FFFFFF 0%, 
     #F8F8F8 50%, 
     #F0F0F0 100%) !important;
   color: #666666 !important;
   border-top: 1px solid #DDDDDD !important;
+  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1) !important;
 }
 
-footer a {
+#footer a {
   color: #555555 !important;
   transition: color 0.2s ease !important;
 }
 
-footer a:hover {
+#footer a:hover {
   color: #333333 !important;
   text-decoration: underline !important;
 }
 
-footer .footer-inner {
+/* Butterfly主题页脚内部容器 */
+#footer .footer-inner {
   background: transparent !important;
 }
 
-footer .footer-item {
+/* 页脚项目样式 */
+#footer .footer-item {
   color: #666666 !important;
 }
 
-footer .copyright {
+/* 版权信息 */
+#footer .copyright {
   color: #888888 !important;
 }
 
-footer .custom-text {
+/* 自定义文本 */
+#footer .custom-text {
   color: #666666 !important;
 }
 
 /* 页脚按钮样式 */
-footer button {
+#footer button {
   background: #666666 !important;
   color: #FFFFFF !important;
   border: 1px solid #CCCCCC !important;
+  border-radius: 4px !important;
+  padding: 6px 12px !important;
+  transition: all 0.2s ease !important;
 }
 
-footer button:hover {
+#footer button:hover {
   background: #555555 !important;
   color: #FFFFFF !important;
+  transform: translateY(-1px) !important;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1) !important;
 }
 
 /* 页脚图标样式 */
-footer i {
+#footer i {
   color: #777777 !important;
+  transition: color 0.2s ease !important;
 }
 
-footer i:hover {
+#footer i:hover {
   color: #555555 !important;
 }
 
 /* 页脚分隔线 */
-footer hr {
+#footer hr {
   border-color: #E0E0E0 !important;
   background-color: #E0E0E0 !important;
+  margin: 15px 0 !important;
 }
 
-/* 页脚阴影效果 */
-footer {
-  box-shadow: 0 -1px 3px rgba(0, 0, 0, 0.1) !important;
+/* 页脚导航链接 */
+#footer .footer-nav a {
+  color: #666666 !important;
+  margin: 0 10px !important;
+}
+
+#footer .footer-nav a:hover {
+  color: #333333 !important;
+}
+
+/* 页脚统计信息 */
+#footer .footer-statistics {
+  color: #888888 !important;
+  font-size: 14px !important;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+  #footer {
+    padding: 20px 15px !important;
+  }
+  
+  #footer .footer-nav a {
+    margin: 0 5px !important;
+    font-size: 14px !important;
+  }
 }
