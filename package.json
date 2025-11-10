@@ -5,7 +5,6 @@
   "scripts": {
     "build": "node build.js",
     "clean": "npx hexo clean",
-    "deploy": "npx hexo deploy",
     "server": "npx hexo server",
     "vercel-build": "node build.js",
     "now-build": "node build.js",
@@ -22,7 +21,6 @@
   "devDependencies": {
     "hexo": "^8.1.1",
     "hexo-asset-img": "^1.2.0",
-    "hexo-deployer-git": "^4.0.0",
     "hexo-filter-nofollow": "^2.0.2",
     "hexo-generator-archive": "^2.0.0",
     "hexo-generator-category": "^2.0.0",
