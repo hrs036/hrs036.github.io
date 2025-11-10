@@ -2,43 +2,74 @@ name: Deploy Hexo Blog
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches:
+      # Only trigger on main branch
+      - main
+    paths-ignore:
+      # Following paths makes no sense to the deployment,
+      # thus can be ignored.
+      - .github/**
+      - .vscode/**
+      - .gitignore
+      - vercel.json
+
+  # Pull requests SHOULD NOT trigger the workflow!
+  # They can ONLY be deployed to "Preview" environment by Vercel.
+
+  # Keep and entrance of manual trigger
+  workflow_dispatch:
+
+permissions:
+  # HAVE TO configure these permissions for necessary privileges.
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  # Prevent multiple deployments at the same time
+  group: github-pages
+  cancel-in-progress: false
 
 jobs:
   build-and-deploy:
+    name: Hexo Site Deployment
     runs-on: ubuntu-latest
-    
+    environment:
+      # Configure which environment to deploy
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+
     steps:
     - name: Checkout
       uses: actions/checkout@v4
       with:
         submodules: true
-        
+        # Required for keeping correct git history,
+        # instead of squashing all of them into a shallow clone.
+        fetch-depth: 0
+
     - name: Setup Node.js
-      uses: actions/setup-node@v4
+      uses: actions/setup-node@v6
       with:
-        node-version: '20'
+        # Always use latest Node.js
+        node-version: 'latest'
         cache: 'npm'
         
     - name: Install dependencies
-      run: npm install
+      # Use CI mode of npm to avoid overwriting package-lock.json
+      run: npm ci
       
     - name: Build
       run: npm run build
-      
-    - name: Upload build artifacts
-      uses: actions/upload-artifact@v4
+
+    - name: Setup GitHub Pages
+      uses: actions/configure-pages@v5
+
+    - name: Upload artifact
+      uses: actions/upload-pages-artifact@v4
       with:
-        name: hexo-build
-        path: public/
-        
-    # 部署到 GitHub Pages（可选）
-    - name: Deploy to GitHub Pages
-      if: github.ref == 'refs/heads/main'
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./public
-        publish_branch: gh-pages
+        path: ./public
+
+    - name: Deploy site
+      id: deploy
+      uses: actions/deploy-pages@v4
