@@ -1,61 +1,58 @@
 ---
-title: python课程学习
+title: Python 课程学习
 date: 2025-10-29 14:30:00
 updated: 2025-10-29 10:00:00
 tags:
-  - python
+  - Python
   - 学习感悟
   - 教程
 categories:
   - 技术分享
 cover: /medias/cover1.jpg
-description: 在蓝桥杯跟着课程学了python,记录学习心得
+description: 在蓝桥杯跟着课程学了 Python ，记录学习心得
 toc: true
 comments: true
 ---
 
-# 开启python学习之旅
+# 开启 Python 学习之旅
 
-这是我的一篇博客文章，写作发布我的python学习心得。
+这是我的一篇博客文章，写作发布我的 Python 学习心得。
 
-## 🚀python
+## 🚀 Python
 
-### 为什么选择 python？
+### 为什么选择 Python ？
+
 - **简单易学**：语法简单，学习成本低
   ```python
-
   print("Hello, world!")
-
   ```
-  在初接触code，公认的python和java比较火，简单 于是打算从python英文单词蟒蛇着手。
+
+  在初接触 Code ，公认的 Python 和 Java 比较火，简单 于是打算从 Python 英文单词蟒蛇着手。
 - **功能强大**：丰富的标准库和第三方库
-  python确实简单 对比c语言 python的代码简洁清晰
-- **可移植性强**：跨平台，可在 Windows、Linux、macOS 等平台运行
-  python的用途据说很广泛 比如 爬虫 数据分析 机器学习 自动化运维 等等
-- **可扩展性强**：可以通过 C/C++ 等语言编写扩展模块
-  从python着手 学习python 可以学习到很多其他语言的知识 比如 面向对象 函数式编程 等等object funcion 基础的计算机语言是相通的，比如运算符+-*/ == != > < >= <=比较运算符 -= += *= /= 等
-  or not and。break 和continue， while for循环 比如if elif else。
-  for i in range（x），pass         
-  print format int str函数 
-  一些基本的计算机知识 比如 内存 指针 等等 
-  还有一些很有意思的 比如程序员节日是10月24日 2^10==1024哈哈哈
+   Python 确实简单，相较 C ， Python 的代码简洁清晰
+- **可移植性强**：跨平台，可在 Windows / Linux / macOS 等平台运行
+   Python 的用途据说很广泛，比如爬虫、数据分析、机器学习、自动化运维等等。
+- **可扩展性强**：可以通过 C/C++/Rust 等语言编写扩展模块
+  学习 Python 可以学习到很多其他语言的知识，比如面向对象、函数式编程、数据类型，基础的计算机语言是相通的。
 
 # 学习的过程
+
 ### 学习的优势
-1. 有ai的帮助
+
+1. 有 AI 的帮助
 2. 有丰富的学习资源
 3. 有良好的社区氛围
 4. 有良好的学习氛围
+
 ### 学习的劣势
+
 1. 学习成本高
 2. 学习时间长
 3. 学习难度大
 4. 学习内容多
+
 ### 感悟与警惕
+
 1. 不要急于求成
 2. 已经很努力了 但是周围可以互相交流学习的同学很少，一大遗憾。闭门造车哪能学的好。
 3. 互联网的资源很丰富，但是陷阱诱惑也很多啊
-
-   
-
-
