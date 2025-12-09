@@ -1,72 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2025/10/28/hello-world/</url>
-    <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start">Quick Start</h2>
-<h3 id="Create-a-new-post">Create a new post</h3>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server">Run server</h3>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo server<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files">Generate static files</h3>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo generate<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites">Deploy to remote sites</h3>
-<pre class="line-numbers language-bash" data-language="bash"><code class="language-bash">$ hexo deploy<span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-]]></content>
-  </entry>
-  <entry>
-    <title>我的第一篇博客文章</title>
-    <url>/2024/01/15/%E5%A4%A7%E5%AE%B6%E5%A5%BD/</url>
-    <content><![CDATA[<h1>欢迎来到我的博客！</h1>
-<p>这是我的第一篇博客文章，使用 Hexo 和 Matery 主题搭建。在这里，我将分享技术学习心得、生活感悟和各种有趣的内容。</p>
-<h2 id="🚀-Hexo-博客搭建经历">🚀 Hexo 博客搭建经历</h2>
-<h3 id="为什么选择-Hexo？">为什么选择 Hexo？</h3>
-<ul>
-<li><strong>快速简单</strong>：基于 Node.js，生成静态页面速度极快</li>
-<li><strong>主题丰富</strong>：有大量美观的主题可供选择</li>
-<li><strong>Markdown支持</strong>：专注于内容写作，无需关心样式</li>
-</ul>
-<h3 id="搭建过程中遇到的挑战">搭建过程中遇到的挑战</h3>
-<ol>
-<li><strong>环境配置</strong><pre><code class="language-bash"># 安装 Hexo
-yard install -g hexo-cli
-
-# 初始化博客
-hexo init myblog
-cd myblog
-
-# 安装依赖
-yard install</code></pre>
-</li>
-</ol>
-]]></content>
-      <categories>
-        <category>技术分享</category>
-      </categories>
-      <tags>
-        <tag>Hexo</tag>
-        <tag>博客搭建</tag>
-        <tag>教程</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>梦绕神州路 the dream of back the path of plain of china</title>
+    <title>梦绕神州路</title>
     <url>/2025/11/07/%E6%A2%A6%E7%BB%95%E7%A5%9E%E5%B7%9E%E8%B7%AF/</url>
     <content><![CDATA[<h1>梦绕神州路</h1>
-<p>惆秋风 连营画角 故宫离黍<br>
-底事昆仑倾砥柱 九地黄流乱注<br>
-聚万落千村孤兔<br>
-天意从来高难问 况且人情易老悲难诉<br>
-更南浦 送君去<br>
-凉生岸柳催残暑<br>
-耿斜河 疏星残月 断云微度<br>
-万里江山知何处 回首对床夜语<br>
-雁不到书成谁与 目尽青天怀今古 肯儿曹恩怨相尔汝 举大白 听金缕</p>
+<pre class="line-numbers language-none"><code class="language-none">惆秋风 连营画角 故宫离黍
+底事昆仑倾砥柱 九地黄流乱注
+聚万落千村孤兔
+天意从来高难问 况且人情易老悲难诉
+更南浦 送君去
+凉生岸柳催残暑
+耿斜河 疏星残月 断云微度
+万里江山知何处 回首对床夜语
+雁不到书成谁与 目尽青天怀今古 肯儿曹恩怨相尔汝 举大白 听金缕<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></span></code></pre>
 <h2 id="本人的翻译和见解">本人的翻译和见解</h2>
 <p>此词是南宋词人张元干作品，词牌名为“梦绕神州路”。<br>
 开头 惆秋风 连营画角 故宫离黍<br>
@@ -85,40 +31,44 @@ yard install</code></pre>
 <p><a href="https://chagushici.com/ju/573066">诗词</a></p>
 ]]></content>
       <categories>
-        <category>诗歌</category>
+        <category>文学欣赏</category>
       </categories>
       <tags>
         <tag>诗歌</tag>
+        <tag>宋词</tag>
+        <tag>张元干</tag>
       </tags>
   </entry>
   <entry>
-    <title>python课程学习</title>
+    <title>Python 课程学习</title>
     <url>/2025/10/29/%E8%87%AA%E5%AD%A6python%E8%AF%BE%E7%A8%8B/</url>
-    <content><![CDATA[<h1>开启python学习之旅</h1>
-<p>这是我的一篇博客文章，写作发布我的python学习心得。</p>
-<h2 id="🚀python">🚀python</h2>
-<h3 id="为什么选择-python？">为什么选择 python？</h3>
+    <content><![CDATA[<h1>开启 Python 学习之旅</h1>
+<p>这是我的一篇博客文章，写作发布我的 Python 学习心得。</p>
+<h2 id="🚀-Python">🚀 Python</h2>
+<h3 id="为什么选择-Python-？">为什么选择 Python ？</h3>
 <ul>
-<li><strong>简单易学</strong>：语法简单，学习成本低<pre class="line-numbers language-python" data-language="python"><code class="language-python">
-<span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Hello, world!"</span><span class="token punctuation">)</span>
-<span aria-hidden="true" class="line-numbers-rows"><span></span><span></span></span></code></pre>
-在初接触code，公认的python和java比较火，简单 于是打算从python英文单词蟒蛇着手。</li>
-<li><strong>功能强大</strong>：丰富的标准库和第三方库<br>
-python确实简单 对比c语言 python的代码简洁清晰</li>
-<li><strong>可移植性强</strong>：跨平台，可在 Windows、Linux、macOS 等平台运行<br>
-python的用途据说很广泛 比如 爬虫 数据分析 机器学习 自动化运维 等等</li>
-<li><strong>可扩展性强</strong>：可以通过 C/C++ 等语言编写扩展模块<br>
-从python着手 学习python 可以学习到很多其他语言的知识 比如 面向对象 函数式编程 等等object funcion 基础的计算机语言是相通的，比如运算符±*/ == != &gt; &lt; &gt;= &lt;=比较运算符 -= += *= /= 等<br>
-or not and。break 和continue， while for循环 比如if elif else。<br>
-for i in range（x），pass<br>
-print format int str函数<br>
-一些基本的计算机知识 比如 内存 指针 等等<br>
-还有一些很有意思的 比如程序员节日是10月24日 2^10==1024哈哈哈</li>
+<li>
+<p><strong>简单易学</strong>：语法简单，学习成本低</p>
+<pre class="line-numbers language-python" data-language="python"><code class="language-python"><span class="token keyword">print</span><span class="token punctuation">(</span><span class="token string">"Hello, world!"</span><span class="token punctuation">)</span><span aria-hidden="true" class="line-numbers-rows"><span></span></span></code></pre>
+<p>在初接触 Code ，公认的 Python 和 Java 比较火，简单 于是打算从 Python 英文单词蟒蛇着手。</p>
+</li>
+<li>
+<p><strong>功能强大</strong>：丰富的标准库和第三方库<br>
+Python 确实简单，相较 C ， Python 的代码简洁清晰</p>
+</li>
+<li>
+<p><strong>可移植性强</strong>：跨平台，可在 Windows / Linux / macOS 等平台运行<br>
+Python 的用途据说很广泛，比如爬虫、数据分析、机器学习、自动化运维等等。</p>
+</li>
+<li>
+<p><strong>可扩展性强</strong>：可以通过 C/C++/Rust 等语言编写扩展模块<br>
+学习 Python 可以学习到很多其他语言的知识，比如面向对象、函数式编程、数据类型，基础的计算机语言是相通的。</p>
+</li>
 </ul>
 <h1>学习的过程</h1>
 <h3 id="学习的优势">学习的优势</h3>
 <ol>
-<li>有ai的帮助</li>
+<li>有 AI 的帮助</li>
 <li>有丰富的学习资源</li>
 <li>有良好的社区氛围</li>
 <li>有良好的学习氛围</li>
@@ -142,8 +92,56 @@ print format int str函数<br>
       </categories>
       <tags>
         <tag>教程</tag>
-        <tag>python</tag>
         <tag>学习感悟</tag>
+        <tag>Python</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>水龙吟·登建康赏心亭</title>
+    <url>/2025/11/07/%E7%99%BB%E5%BB%BA%E5%BA%B7%E8%B5%8F%E5%BF%83%E4%BA%AD/</url>
+    <content><![CDATA[<h1>楚天千里青秋</h1>
+<p>楚天千里清秋，水随天去秋无际。<br>
+遥岑远目，献愁供恨，玉簪螺髻。<br>
+落日楼头，断鸿声里，江南游子。<br>
+把吴钩看了，栏杆拍遍，无人会，登临意。<br>
+(栏杆 一作：阑干)<br>
+休说鲈鱼堪脍，尽西风，季鹰归未？求田问舍，怕应羞见，刘郎才气。<br>
+可惜流年，忧愁风雨，树犹如此！倩何人唤取，红巾翠袖，揾英雄泪！</p>
+<h2 id="个人见解">个人见解</h2>
+<p>此词是辛弃疾登高楼所做<br>
+开句是风景极好的词句 楚天千里清秋 水随天去秋无际<br>
+楚是楚国领土 水泛指长江中下游一带<br>
+千里清秋 秋无际 是秋季的景色<br>
+二句 “遥岑”即远山。举目远眺，那一层层、一叠叠的远山，有的很像美人头上插戴的玉簪，有的很像美人头上螺旋形的发髻，景色算上美景，但只能引起词人的忧愁和愤恨<br>
+三句 “断鸿”，是失群的孤雁，比喻作为“江南游子”</p>
+<h2 id="辛弃疾的词喜欢用典故">辛弃疾的词喜欢用典故</h2>
+<p>1.三国时许汜去看望陈登，陈登对他很冷淡，独自睡在大床上，叫他睡下床。许汜去询问刘备，刘备说：天下大乱，你忘怀国事，求田问舍，陈登当然瞧不起你<br>
+2.《世说新语。言语》，桓温北征，经过金城，见自己过去种的柳树已长到几围粗，便感叹地说：“木犹如此，人何以堪？”<br>
+3.晋朝人张翰字季鹰，在洛阳做官，见秋风起，想到家乡苏州味美的鲈鱼，便弃官回乡<br>
+这三句词包含的意思是：于此时，我心中确实想念故乡，但我不不会像张瀚，许汜一样贪图安逸今日怅恨忧惧的</p>
+<p><a href="https://chagushici.com/shici/56803">诗词</a></p>
+]]></content>
+      <categories>
+        <category>文学欣赏</category>
+      </categories>
+      <tags>
+        <tag>诗歌</tag>
+        <tag>辛弃疾</tag>
+        <tag>宋词</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>帝国2</title>
+    <url>/2025/11/15/%E6%97%A5%E8%AE%B0/</url>
+    <content><![CDATA[<p>！<a href="E:%5CAmyblog%5Chrs036.github.io%5Cpublic%5Cimg">图片</a></p>
+]]></content>
+      <categories>
+        <category>技术分享</category>
+      </categories>
+      <tags>
+        <tag>教程</tag>
+        <tag>hexo</tag>
+        <tag>帝国</tag>
       </tags>
   </entry>
 </search>
